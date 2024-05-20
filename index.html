@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Literario</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="icon" href="./images/favicon/favicon.ico" type="image/x-icon">      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css"> 
+
+    <script src="https://kit.fontawesome.com/f189bdf4da.js" crossorigin="anonymous"></script>
+
+</head>
+<body>  
+    <header class="header" id="header">
+        <nav class="nav container"> 
+            <div class="nav_logo">
+                <a href="index.html" > 
+                    <img src="./images/logo/logo-mundo-literario.png" alt="Logo Mundo Literario">      
+                </a>
+            </div>  
+            <div class="nav_icon">
+                <ul>       
+                    <li><a href="./pages/login.html" class="nav_user"><i class="fa-solid fa-user"></i></a></li>
+                    <li class="nav_cart icon-cart"><i class="fa-solid fa-cart-shopping carrito"></i><span class="numerito" id="numerito">0</span></li>
+                    <li><button type="button" id="menu-mobile-btn"><i class="fa-solid fa-bars"></i></button></li>  
+                </ul>
+            </div>   
+            <div class="nav_menu invisible" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="index.html#home" class="nav_link sub-line active">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="./pages/store.html" class="nav_link sub-line">Catálogo</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html#novedades" class="nav_link sub-line">Novedades</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html#categorias" class="nav_link sub-line">Categorías</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html#contacto" class="nav_link sub-line">Contacto</a>
+                    </li> 
+                  
+                </ul>
+            </div>
+            <div class="nav_search">
+                <form action="" class="search">
+                    <input type="text" name="search" placeholder="Buscar..." class="field-search">
+                    <button type="submit" class="btn-search"><i class="fa-solid fa-magnifying-glass icon"></i></button>
+                </form>
+            </div>          
+        </nav>        
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="home_container container grid">  
+                <div class="logo_portada">
+                    <img src="./images/logo/logo-white.png" alt="Logo Mundo Literario">
+                </div>     
+                <div class="home_data">
+                    <h1 class="home_title">¡Bienvenido a Mundo Literario!</h1>
+                    <p class="home_description">
+                         Explora nuestro extenso catálogo de Best Sellers, Clásicos Atemporales y Nuevas Voces Creativas que encenderán tu pasión por la lectura y alimentarán tu curiosidad sumergiéndote en un universo imaginario a través de los libros.
+                    </p>
+                    <a href="./pages/store.html" class="btn">Explorá ahora <i class="fa-solid fa-right-long"></i></a>
+                </div>   
+            </div>      
+        </section>
+        <div class="wave1">
+            <div style="height: 150px; overflow: hidden;" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: hsl(220, 18%, 99%);"></path>
+                </svg>
+            </div>
+        </div>
+        
+        <section class="new section" id="novedades">
+            <h2 class="section_title">Novedades</h2>
+            <div class="new_container_release">
+                <a href="./pages/detail.html?id=nov-039" class="new_card ">
+                        <img src="./images/img1.webp" alt="portada del libro El Aleph" class="new_img">      
+                        <div class="new_data">
+                            <h3 class="new_title">El Aleph</h3>
+                            <span class="new_subtitle">Jorge Luis Borges</span>                   
+                        </div>           
+                </a>                     
+                <a href="./pages/detail.html?id=nov-040" class="new_card ">
+                    <img src="./images/img_2.webp" alt="portada del libro Muchas vidas, muchos maestros" class="new_img">        
+                    <div class="new_data">
+                        <h3 class="new_title">Muchas vidas,<br> muchos maestros</h3>
+                        <span class="new_subtitle">Brian Weiss</span>               
+                    </div>            
+                </a>      
+                <a href="./pages/detail.html?id=nov-041" class="new_card" >
+                        <img src="./images/img_3.webp" alt="portada del libro Ecos del pasado" class="new_img">          
+                        <div class="new_data">
+                            <h3 class="new_title">Ecos del pasado</h3>
+                            <span class="new_subtitle">Diana Gabaldon</span>               
+                        </div>        
+                </a>          
+            </div>
+        </section>
+        
+        <div class="wave2" id="categorias">
+            <div style="height: 150px; overflow: hidden;" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: hsl(220, 18%, 99%);"></path>
+                </svg>
+            </div>
+        </div>      
+           
+        <section class="new_category" >
+            <h2 class="section_title_white">Categorías</h2>
+            <div class="category_container">                                         
+                <div class="description_category">
+                    <h3>Sumergite en un mundo de historias...</h3>
+                    <p>
+                        A través de las páginas de tesoros literarios, donde cada palabra es un portal que te sumerge en universos inexplorados, con personajes que cobran vida y  emociones  que se entrelazan en una danza de letras.
+                    </p>
+                    <p>
+                       Descubrí la magia de las historias que despertarán tu curiosidad y te transportarán más allá de lo cotidiano. 
+                    </p>
+                </div> 
+
+                <div class="galery">
+                    <div class="card card_ficcion">
+                        <div class="category_item">                      
+                            <h2>Ficción</h2>
+                            <a href="./pages/store.html?q=cat-cfi"><span>Ver más</span></a>
+                        </div>
+                    </div>    
+                    <div class="card card_novela">
+                        <div class="category_item">         
+                            <h2>Novela</h2>
+                            <a href="./pages/store.html?q=cat-nov"><span>Ver más</span></a>
+                        </div>
+                    </div>     
+                    <div class=" card card_infantil">
+                        <div class="category_item">         
+                        <h2>Infantil</h2>
+                        <a href="./pages/store.html?q=cat-inf"><span>Ver más</span></a>
+                        </div>
+                    </div>   
+                    <div class=" card card_romantica">
+                        <div class="category_item">         
+                        <h2>Romantica</h2>
+                        <a href="./pages/store.html?q=cat-rom"><span>Ver más</span></a>
+                        </div>
+                    </div>  
+                    <div class=" card card_terror">
+                        <div class="category_item">         
+                        <h2>Terror</h2>
+                        <a href="./pages/store.html?q=cat-ter"><span>Ver más</span></a>
+                        </div>
+                    </div>
+                    <div class=" card card_fantasia">
+                        <div class="category_item">         
+                        <h2>Fantasía</h2>
+                        <a href="./pages/store.html?q=cat-fan"><span>Ver más</span></a>
+                        </div>
+                    </div>  
+                    <div class="card card_bienestar">
+                        <div class="category_item">         
+                        <h2>Bienestar</h2>
+                        <a href="./pages/store.html?q=cat-bie"><span>Ver más</span></a>
+                        </div>
+                    </div>        
+                    <div class=" card card_cocina">
+                        <div class="category_item">         
+                        <h2>Cocina</h2>
+                        <a href="./pages/store.html?q=cat-coc"><span>Ver más</span></a>
+                        </div>
+                    </div>                         
+                </div>     
+            </div>
+        </section>
+
+        <div class="wave3">
+                <div style="height: 150px; overflow: hidden;" >
+                    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: hsl(220, 18%, 99%);"></path>
+                    </svg>
+                </div>
+        </div>     
+    <!-- top sell -->
+        <section class="top-sell">
+            <h2 class="section_title">Más Vendidos</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <a href="./pages/detail.html?id=nov-034"><img src="./images/1.png"></a>
+                    <a href="./pages/detail.html?id=nov-034"><h4>Muerte en El Nilo</h4></a>
+                    <h5>Agatha Christie</h5>
+                    <h6>Categoría</h6>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+
+                <div class="grid-item">
+                    <a href="./pages/detail.html?id=nov-035"><img src="./images/2.png"></a>
+                    <a href="./pages/detail.html?id=nov-035"><h4>Misery</h4></a>
+                    <h5>Stephen King</h5>
+                    <h6>Categoría</h6>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+
+                <div class="grid-item">
+                    <a href="./pages/detail.html?id=nov-036"><img src="./images/3.png"></a>
+                    <a href="./pages/detail.html?id=nov-036"><h4>22/11/63</h4></a>
+                    <h5>Stephen King</h5>
+                    <h6>Categoría</h6>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o" ></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+
+                <div class="grid-item">
+                    <a href="./pages/detail.html?id=nov-036"><img src="./images/4.png"></a>
+                    <a href="./pages/detail.html?id=nov-037"><h4>El Instituto</h4></a>
+                    <h5>Stephen King</h5>
+                    <h6>Categoría</h6>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>  
+        </section>
+        
+    <!-- separador -->
+        <section id="separador">
+            <div class="col-3 data__container">
+                <div class="data__info">
+                    <h2>+ 40M</h2>
+                    <h3>Libros disponibles</h3>
+                    <p>Ficcion, no ficcion, manga y comics. En mas de 20 idiomas.</p>
+                    <i class="fa-solid fa-book"></i>
+                </div>
+                <div class="data__info">
+                    
+                    <h2>26</h2>
+                    <h3>Tiendas físicas</h3>
+                    <p>A lo largo de todo el país. Proximamente tambien en sudamerica.</p>
+                    <i class="fa-solid fa-store"></i>
+                </div>
+                <div class="data__info">
+                    <h2>+ 5M</h2>
+                    <h3>Clientes</h3>
+                    <p>Envíos en todo el mundo. Entrega garantizada.</p>
+                    <i class="fa-solid fa-users-line"></i>
+                </div>
+                
+            
+            </div>
+        </section>
+
+    <!-- recomendados -->
+        <section class="recomendado">
+            <h2 class="section_title">Recomendados</h2>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <a href="./pages/detail.html?id=nov-026">
+                                    <img src="./images/5.png">
+                                    <h4>Dune</h4>
+                                </a>
+                                <h5>Frank Herbert</h5>
+                                <h6>Categoría</h6>   
+                                <div class="rating">
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star-o" ></i>
+                                </div>
+                                <p>$50.00</p>
+                            </div>
+            
+                            <div class="grid-item">
+                                <a href="./pages/detail.html?id=nov-038">
+                                    <img src="./images/6.png">
+                                    <h4>El Señor de los Anillos</h4>
+                                </a>
+                                <h5>J.J.R. Tolkien</h5>
+                                <h6>Categoría</h6>
+                                <div class="rating">
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star-half-o" ></i>
+                                    <i class="fa fa-star-o" ></i>
+                                </div>
+                                <p>$50.00</p>
+                            </div>
+
+                            <div class="grid-item">
+                                <a href="./pages/detail.html?id=nov-042">
+                                    <img src="./images/7.png">
+                                    <h4>Miss Marple. Doce casos nuevos</h4>
+                                </a>
+                                <h5>Agatha Christie</h5>
+                                <h6>Categoría</h6>
+                                <div class="rating">
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star-half-o" ></i>
+                                </div>
+                                <p>$50.00</p>
+                            </div>
+                            <div class="grid-item">
+                                <a href="./pages/detail.html?id=nov-021">
+                                    <img src="./images/8.png">
+                                    <h4>Fahrenheit 451</h4>
+                                </a>
+                                <h5>Ray Bradbury</h5>
+                                <h6>Categoría</h6>
+                                <div class="rating">
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star-o" ></i>
+                                </div>
+                                <p>$50.00</p>
+                            </div>
+                        </div>
+        </section>
+    
+    <!-------offer ------->
+        <section class="offer">
+            <div class="wave2">
+                <div style="height: 150px; overflow: hidden;" >
+                    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                        <path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: hsl(220, 18%, 99%);"></path>
+                    </svg>
+                </div>
+            </div> 
+
+            <div class="row__offer">   
+                <div class="col-2 img__offer">
+                    <img src="./images/image4.png" class="offer-img">
+                </div>
+                <div class="title__offer">
+                    <small>Exclusivo de Mundo Literario</small>
+                    <h2>Stephen King</h2>
+                    <p>Encontrá todo el contenido del mejor autor del terror acá.</p>
+                    <a href="" class="btn">Ver más ...</a>
+                </div>
+            </div>
+
+            <div class="wave1">
+                <div style="height: 150px; overflow: hidden;" >
+                    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: hsl(220, 18%, 99%);"></path>
+                    </svg>
+                </div>
+            </div>  
+        </section>
+
+    <!-- form de contacto     -->
+        <section class="contact section" id="contacto">
+            <h2 class="section_title">Contactate con nosotros!</h2>
+            <div class="contact_container content container grid">
+                <div class="box-info">
+                    <h2 >Mundo Literario</h2>
+                    <ul class="data">
+                        <li><i class="fa-solid fa-phone"></i><a href="">011 234 5678</a></li>
+                        <li><i class="fa-solid fa-envelope"></i><a href="mailto:mundoLiterario.com">mundoLiterario@gmail.com</a></li>
+                        <li><i class="fa-solid fa-location-dot"></i><a href="9JW9+G9 Buenos Aires, Cdad. Autónoma de Buenos Aires" target="_blank">Calle Falsa 123, Buenos Aires.</a></li>
+                    </ul> 
+                    <div class="contact_links">
+                        <a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>                   
+                </div>
+
+                <form id="form-contact">
+                    <div class="input-box">
+                        <input type="text" placeholder="Nombre y apellido" required>       
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="email" placeholder="Correo electrónico" required>    
+                        <i class="fa-solid fa-envelope"></i>     
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" placeholder="Dirección"> 
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+
+                    <div class="input-box">
+                        <select name="provincia" >
+                            <option value="">Selecciona tu provincia</option>
+                            <option value="ba">Buenos Aires</option>
+                            <option value="ba">Catamarca</option>
+                            <option value="ba">Chaco</option>
+                            <option value="cb">Córdoba</option>
+                            <option value="cb">Corrientes</option>
+                            <option value="cb">Entre Ríos</option>
+                            <option value="cb">Formosa</option>
+                            <option value="cb">Jujuy</option>
+                            <option value="cb">La Pamapa</option>
+                            <option value="sf">La Rioja</option>
+                            <option value="sf">Mendoza</option>
+                            <option value="ms">Misiones</option>
+                            <option value="ms">Neuquén</option>
+                            <option value="ms">Río Negro</option>
+                            <option value="ms">Salta</option>
+                            <option value="ms">San Juan</option>
+                            <option value="ms">San Luis</option>
+                            <option value="ms">Santa Cruz</option>
+                            <option value="ms">Santa Fe</option>
+                            <option value="ms">Santiago del Estero</option>
+                            <option value="ms">Tierra del Fuego</option>
+                            <option value="ms">Tucumán</option>     
+                        </select>
+                        </div>
+
+                    <div class="input-box affair" >
+                        <label for="consulta">Consulta</label>
+                        <input type="radio" name="asunto" id="consulta" value="asunto_consulta" checked>
+                        
+                        <label for="reclamo">Reclamo</label>
+                        <input type="radio" name="asunto" id="reclamo" id="asunto_reclamo">
+                        
+                        <label for="otro">Otro</label>  
+                        <input type="radio" name="asunto" id="otro" value="asunto_otro">                  
+                    </div>
+
+                    <div class="input-box">
+                        <textarea   rows="10"  placeholder="Escribe tu mensaje..."></textarea>                      
+                    </div>
+
+                    <button type="submit" class="btn">Enviar mensaje</button>
+                </form>
+            </div>        
+        </section>    
+
+    </main>  
+    <footer class="footer">
+        <div class="wave4">
+            <div style="height: 150px; overflow: hidden;" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: hsl(220, 18%, 99%);"></path>
+                </svg>
+            </div>
+        </div>
+        <div class="footer_container container">
+            <div class="footer_logo" >
+                <a href="index.html#home">
+                    <img src="./images/logo/logo-white.png" alt="Logo Mundo Literario">    
+                </a>
+            </div>
+
+            <div class="footer_content"> 
+                <div class="footer_content_section">     
+                    <h3 class="footer_title">La Empresa</h3>
+                    <ul class="footer_links">
+                       <li>
+                            <a href="./pages/about_us.html" class="footer_link">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="./pages/privacy.html" class="footer_link">Políticas de Privacidad</a>
+                        </li>
+                        <li>
+                            <a href="./pages/terms_conditions.html" class="footer_link">Términos y Condiciones</a>
+                        </li>
+                    </ul>
+                </div > 
+
+                <div class="footer_content_section">
+                    <h3 class="footer_title">Categorías</h3>
+                    <ul class="footer_links">
+                        <li>
+                            <a href="./pages/store.html?q=cat-cfi" class="footer_link">C.Ficción</a>
+                        </li>
+                        <li>
+                            <a href="./pages/store.html?q=cat-nov" class="footer_link">Novela</a>
+                        </li>
+
+                        <li>
+                            <a href="./pages/store.html?q=cat-inf" class="footer_link">Infantil</a>
+                        </li>
+
+                        <li>
+                            <a href="./pages/store.html?q=cat-rom" class="footer_link">Romántica</a>
+                        </li>
+
+                        <li>
+                            <a href="./pages/store.html?q=cat-ter" class="footer_link">Terror</a>
+                        </li>
+
+                        <li>
+                            <a href="./pages/store.html?q=cat-fan" class="footer_link">Fantasía</a>
+                        </li>
+
+                        <li>
+                            <a href="./pages/store.html?q=cat-bie" class="footer_link">Bienestar</a>
+                        </li>     
+
+                        <li>
+                            <a href="./pages/store.html?q=cat-coc" class="footer_link">Cocina</a>
+                        </li>         
+                       
+                    </ul>
+                </div > 
+            
+                <div class="footer_content_section">
+                    <h3 class="footer_title">
+                        Ayuda
+                    </h3>
+                    <ul class="footer_links">
+                        <li><a href="./pages/pay_media.html" class="footer_link">Medios de Pago</a>
+                        </li>
+                        <li><a href="./pages/cost.html" class="footer_link">Costo de Envío</a>
+                        </li>
+                        <li><a href="./pages/frequent_questions.html" class="footer_link">Preguntas Frecuentes</a>
+                        </li>  
+                    </ul>
+                </div > 
+            </div>
+        </div>
+       
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+        </a>
+         
+    </footer>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/main.js"></script>
+    <script src="../js/cart.js"></script>
+
+</body>
+</html>
+
+

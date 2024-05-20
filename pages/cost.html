@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Literario</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="icon" href="../images/favicon/favicon.ico" type="image/x-icon">      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css"> 
+    <script src="https://kit.fontawesome.com/f189bdf4da.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="wrapper">  
+    <header class="header" id="header">
+        <nav class="nav container"> 
+            <div class="nav_logo">
+                <a href="../index.html" > 
+                    <img src="../images/logo/logo-mundo-literario.png" alt="Logo Mundo Literario">      
+                </a>
+            </div>  
+            <div class="nav_icon">
+                <ul>       
+                    <li><a href="./login.html" class="nav_user"><i class="fa-solid fa-user"></i></a></li>
+                    <li class="nav_cart icon-cart"><i class="fa-solid fa-cart-shopping carrito"></i><span class="numerito" id="numerito">0</span></li>
+                    <li><button type="button" id="menu-mobile-btn"><i class="fa-solid fa-bars"></i></button></li>  
+                </ul>
+            </div>  
+            <div class="nav_menu invisible" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="../index.html#home" class="nav_link sub-line active">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="./store.html" class="nav_link sub-line">Catálogo</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="../index.html#novedades" class="nav_link sub-line">Novedades</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="../index.html#categorias" class="nav_link sub-line">Categorías</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="../index.html#contacto" class="nav_link sub-line">Contacto</a>
+                    </li> 
+                  
+                </ul>
+            </div>
+            <div class="nav_search">
+                <form action="" class="search">
+                    <input type="text" name="search" placeholder="Buscar..." class="field-search">
+                    <button type="submit" class="btn-search"><i class="fa-solid fa-magnifying-glass icon"></i></button>
+                </form>
+            </div>          
+        </nav>        
+    </header>
+
+    <main>
+        <div class="cost">
+            <h1>Costo de envío</h1>
+            
+            <div class="wave1">
+                <div style="height: 150px; overflow: hidden;" >
+                    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: hsl(220, 18%, 99%);"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <h2>Envíos dentro de Argentina</h2>
+            
+            <p>Los envíos se realizan desde la Argentina. Los valores están expresados en pesos argentinos.</p>
+            
+            <p>El tiempo de salida del depósito es normalmente de un día hábil a partir de la confirmación de la compra. A esto se adicionan los días del traslado del pedido.</p>   
+        
+            <h4>1 día + tiempo de envío = fecha de entrega</h4>
+             <p>Recibirás un link de seguimiento por correo electrónco para confirmar la fecha de entrega</p>
+            
+             <table>
+                <tr class="table_header">
+                    <th>
+                        Localidad
+                    </th>
+                    <th>
+                        Tiempo de envío
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Capital Federal
+                    </td>
+                    <td>
+                        2 - 3 días hábiles
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Provinica de Buenos Aires
+                    </td>
+                    <td>
+                        2 - 4 días hábiles
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Resto del país
+                    </td>
+                    <td>
+                        3 - 5 días hábiles
+                    </td>
+                </tr>
+            </table>
+
+            <h4>Aclaración:</h4>
+            <p> Si su compra se realiza durante el fin de semana, hay que considerar 48h más para la salida del pedido del depósito </p>
+        
+            <h3>Correo Argentino</h3>
+
+            <table>
+                <tr class="table_header">
+                    <th>
+                        Región
+                    </th>
+                    <th>
+                        Costo fijo
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Buenos Aires (GBA)
+                    </td>
+                    <td>
+                        ARS$ 1850
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Buenos Aires (Interior)
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       CABA
+                    </td>
+                    <td>
+                       ARS$ 1850
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       Catamarca
+                    </td>
+                    <td>
+                       ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       Chaco
+                    </td>
+                    <td>
+                       ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Chubut
+                    </td>
+                    <td>
+                        ARS$ 3300
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Córdoba
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Corrientes
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Entre Ríos
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Formosa
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Jujuy
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        La Pampa
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        La Rioja
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mendoza
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Misiones
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Neuquén
+                    </td>
+                    <td>
+                        ARS$ 3300
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Río Negro
+                    </td>
+                    <td>
+                        ARS$ 3300
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Salta
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        San Juan
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        San Luis
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Santa Cruz
+                    </td>
+                    <td>
+                        ARS$ 3300
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Santa Fe
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Santiago del Estero
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Tierra del Fuego
+                    </td>
+                    <td>
+                        ARS$ 3300
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Tucumán
+                    </td>
+                    <td>
+                        ARS$ 2750
+                    </td>
+                </tr>
+            </table>
+           
+           <h2>Envíos internacionales</h2>
+           
+           <p>El plazo de entrega para una compra con destino fuera de la Argentina es: </p>
+
+           <h4>Tiempo de salida de depósito (normalmente 3 días corridos) + tiempo de envío = plazo de entrega</h4>
+
+            <p>Para conocer el plazo de envío, puedes buscar la zona de destino de tu pedido en la  tabla</p>
+            
+            <p>Para hacer un seguimiento de tu pedido recibirás un correo electrónico cuando se haya despachado el pedido con el número de encomienda y el link de seguimiento </p>
+            <h3>DHL</h3>
+
+            <table>
+                <tr class="table_header">
+                    <th>
+                        Región
+                    </th>
+                    <th>
+                        Hasta 1 kg
+                    </th>
+                    <th>
+                        Kilo extra
+                    </th>
+                    <th>
+                        Tiempo de envío
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        ZONA 1 (Brasil, Chile, Paraguay, Ururguay)
+                    </td>
+                    <td>
+                        US$ 24.50
+                    </td>
+                    <td>
+                        US$ 4.00
+                    </td>
+                    <td>
+                        3 días hábiles
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ZONA 2 (Estados Unidos y Canadá)
+                    </td>
+                    <td>
+                        US$ 30.50
+                    </td>
+                    <td>
+                        US$ 5.00
+                    </td>
+                    <td>
+                        4 días hábiles
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ZONA 3 (Resto de América del Sur, Centroamérica y Caribe)
+                    </td>
+                    <td>
+                        US$ 39.50
+                    </td>
+                    <td>
+                        US$ 7.00
+                    </td>
+                    <td>
+                        4 días hábiles
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ZONA 4 (Europa Occidental)
+                    </td>
+                    <td>
+                        US$ 43.50
+                    </td>
+                    <td>
+                        US$ 8.50
+                    </td>
+                    <td>
+                        5 días hábiles
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ZONA 5 (Europa del Este y Asia)
+                    </td>
+                    <td>
+                        US$ 43.50
+                    </td>
+                    <td>
+                        US$ 8.50
+                    </td>
+                    <td>
+                        6 días hábiles
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ZONA 6(Resto del mundo)
+                    </td>
+                    <td>
+                        US$ 43.50
+                    </td>
+                    <td>
+                        US$ 8.50
+                    </td>
+                    <td>
+                        7 días hábiles
+                    </td>
+                </tr>
+                
+            </table>
+
+            <h4>Aclaraciones:</h4>
+
+                <p>Si tu compra es realizada un viernes, adicionar 2 días al tiempo de envío.</p>
+                <p>Si tu compra es realizada un sábado o día no laborable, adicionar 1 día al tiempo envío.</p>
+                <p>Si tu compra contiene diferentes fechas de disponibilidad, tomaremos como válida la fecha de despacho más extensa, en función de minimizar los gastos de envío.</p>
+              
+        </div>   
+    </main>
+    
+    <footer class="footer">
+        <div class="wave4">
+            <div style="height: 150px; overflow: hidden;" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: hsl(220, 18%, 99%);"></path>
+                </svg>
+            </div>
+        </div>
+        <div class="footer_container container">
+            <div class="footer_logo" >
+                <a href="">
+                    <img src="../images/logo/logo-white.png" alt="Logo Mundo Literario">    
+                </a>
+            </div>
+
+            <div class="footer_content"> 
+                <div class="footer_content_section">     
+                    <h3 class="footer_title">La Empresa</h3>
+                    <ul class="footer_links">
+                        <li>
+                            <a href="../pages/about_us.html" class="footer_link">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="../pages/privacy.html" class="footer_link">Políticas de Privacidad</a>
+                        </li>
+                        <li>
+                            <a href="../pages/terms_conditions.html" class="footer_link">Términos y Condiciones</a>
+                        </li>
+                    </ul>
+                </div > 
+
+                <div class="footer_content_section">
+                    <h3 class="footer_title">Categorías</h3>
+                    <ul class="footer_links">
+                        <li>
+                            <a href="../pages/store.html?q=cat-cfi" class="footer_link">C. Ficción</a>
+                        </li>
+                        <li>
+                            <a href="../pages/store.html?q=cat-nov" class="footer_link">Novela</a>
+                        </li>
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-inf" class="footer_link">Infantil</a>
+                        </li>
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-rom" class="footer_link">Romántica</a>
+                        </li>
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-ter" class="footer_link">Terror</a>
+                        </li>
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-fan" class="footer_link">Fantasía</a>
+                        </li>
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-bie" class="footer_link">Bienestar</a>
+                        </li>     
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-coc" class="footer_link">Cocina</a>
+                        </li>         
+                       
+                    </ul>
+                </div > 
+            
+                <div class="footer_content_section">
+                    <h3 class="footer_title">
+                        Ayuda
+                    </h3>
+                    <ul class="footer_links">                        
+                        <li><a href="../pages/pay_media.html" class="footer_link">Medios de Pago</a>
+                        </li>
+                        <li><a href="../pages/cost.html" class="footer_link">Costo de Envío</a>
+                        </li>
+                        <li><a href="../pages/frequent_questions.html" class="footer_link">Preguntas Frecuentes</a>
+                        </li>  
+                    </ul>
+                </div > 
+            </div>
+        </div>
+       
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+        </a>
+         
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+</html>
+
+

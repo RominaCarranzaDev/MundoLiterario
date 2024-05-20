@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Literario</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="icon" href="../images/favicon/favicon.ico" type="image/x-icon">      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css"> 
+    <script src="https://kit.fontawesome.com/f189bdf4da.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="wrapper">  
+    <header class="header" id="header">
+        <nav class="nav container"> 
+            <div class="nav_logo">
+                <a href="../index.html" > 
+                    <img src="../images/logo/logo-mundo-literario.png" alt="Logo Mundo Literario">      
+                </a>
+            </div>  
+            <div class="nav_icon">
+                <ul>       
+                    <li><a href="./login.html" class="nav_user"><i class="fa-solid fa-user"></i></a></li>
+                    <li class="nav_cart icon-cart"><i class="fa-solid fa-cart-shopping carrito"></i><span class="numerito" id="numerito">0</span></li>
+                    <li><button type="button" id="menu-mobile-btn"><i class="fa-solid fa-bars"></i></button></li>  
+                </ul>
+            </div>  
+            <div class="nav_menu invisible" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="../index.html#home" class="nav_link sub-line">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="./store.html" class="nav_link sub-line active">Catálogo</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="../index.html#novedades" class="nav_link sub-line">Novedades</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="../index.html#categorias" class="nav_link sub-line">Categorías</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="../index.html#contacto" class="nav_link sub-line">Contacto</a>
+                    </li> 
+                  
+                </ul>
+            </div>
+            <div class="nav_search">
+                <form action="" class="search">
+                    <input type="text" name="search" placeholder="Buscar..." class="field-search">
+                    <button type="submit" class="btn-search"><i class="fa-solid fa-magnifying-glass icon"></i></button>
+                </form>
+            </div>          
+        </nav>        
+    </header>
+    
+    <main id="main-store">
+        <aside class="filtros">
+            <h3>Filtros</h3>
+            <div class="filtro__ed">
+                <h5>Por Editorial</h5>
+                <select class="select select_editorial">
+                    <option>Editoriales</option>
+                    <option value="Alfaguara">Alfaguara</option>
+                    <option value="Alianza De Novelas (ADN)">Alianza De Novelas (ADN)</option>
+                    <option value="Amat">Amat</option>
+                    <option value="Ateneo">Ateneo</option>
+                    <option value="Debolsillo">De Bolsillo</option>
+                    <option value="Destino">Destino</option>
+                    <option value="Ediciones B">Ediciones B | B de Books</option>
+                    <option value="El Grano de Mostaza">El Grano de Mostaza</option>
+                    <option value="Flamboyant">Flamboyant</option>
+                    <option value="Gaia Ediciones">Gaia Ediciones</option>
+                    <option value="Kier Ediciones">Kier Ediciones</option>
+                    <option value="Literatura Random House">Literatura Random House</option>
+                    <option value="Lumen">Lumen</option>
+                    <option value="Minotauro">Minotauro</option>
+                    <option value="Molino">Molino</option>
+                    <option value="Paidós">Paidós</option>
+                    <option value="Planeta">Planeta</option>
+                    <option value="Plaza & Janés">Plaza & Janés</option>
+                    <option value="QUARTO">Quarto</option>
+                    <option value="Robinbook">Robinbook</option>
+                    <option value="Salamandra">Salamandra</option>
+                    <option value="Sudamericana">Sudamericana</option>
+                    <option value="Terapias Verdes">Terapias Verdes</option>
+                    <option value="Titania">Titania</option>
+                    <option value="Umbriel">Umbriel</option>
+                    <option>Oceano</option>
+                    
+                </select>
+            </div>
+            <div class="filtro__aut">
+                <h5>Por Autor</h5>
+                <select class="select select_autor">
+                    <option>Autores</option>
+                    <option value="Agatha Christie">Agatha Christie</option>
+                    <option value="Albert Camus">Albert Camus</option>
+                    <option value="Aldous Huxley">Aldous Huxley</option>
+                    <option value="Alejandro Chiarella">Alejandro Chiarella</option>
+                    <option value="Anna Llenas">Anna Llenas</option>
+                    <option value="Alex Hirsch">Alex Hirsch</option>
+                    <option value="Barbel Mohr">Barbel Mohr</option>
+                    <option value="Brian Weiss">Brian Weiss</option>
+                    <option value="Carlos Ruiz Zafón">Carlos Ruiz Zafón</option>
+                    <option value="Claudia Federica Zosi">Claudia Federica Zosi</option>
+                    <option value="Dan Brown">Dan Brown</option>
+                    <option value="Danielle Steel">Danielle Steel</option>
+                    <option value="Darío Sztajnszrajber">Darío Sztajnszrajber</option>
+                    <option value="Diana Gabaldon">Diana Gabaldon</option>
+                    <option value="Douglas Baker">Douglas Baker</option>
+                    <option value="Enric Corbera">Enric Corbera</option>
+                    <option value="Flavia Lins E Silva">Flavia Lins E Silva</option>
+                    <option value="Frank Herbert">Frank Herbert</option>
+                    <option value="Gabriel García Márquez">Gabriel García Márquez</option>
+                    <option value="Gabriel Rolón">Gabriel Rolón</option>
+                    <option value="George Orwell">George Orwell</option>
+                    <option value="Horacio Quiroga">Horacio Quiroga</option>
+                    <option value="Isaac Asimov">Isaac Asimov</option>
+                    <option value="Isabel Allende">Isabel Allende</option>
+                    <option value="Jacinta Luna">Jacinta Luna</option>
+                    <option value="Jalina Chugani">Jalina Chugani</option>
+                    <option value="Jorge Luis Borges">Jorge Luis Borges</option>
+                    <option value="Julia Quinn">Julia Quinn</option>
+                    <option value="Juliana López May">Juliana López May</option>
+                    <option value="J.D. Salinger">J.D. Salinger</option>
+                    <option value="J. K. Rowling">J.K. Rowling</option>
+                    <option value="J. R. R. Tolkien">J.R.R. Tolkien</option>
+                    <option value="Karin Smirnoff">Karin Smirnoff</option>
+                    <option value="Lucy M. Montgomery">Lucy M. Montgomery</option>
+                    <option value="Margaret Atwood">Margaret Atwood</option>
+                    <option value="Margarita Maine">Margarita Maine</option>
+                    <option value="Mark Wolynn">Mark Wolynn</option>
+                    <option value="Neil Gaiman">Neil Gaiman</option>
+                    <option value="Patrick Rothfuss">Patrick Rothfuss</option>
+                    <option value="Pietro Sorba">Pietro Sorba</option>
+                    <option value="Paulo Coelho">Paulo Coelho</option>
+                    <option value="Ray Bradbury">Ray Bradbury</option>
+                    <option value="Silvia Adela Kohan">Silvia Adela Kohan</option>
+                    <option value="Stephen King">Stephen King</option>
+                    <option value="Suzanne Collins">Suzanne Collins</option>
+                    <option value="William Gibson">William Gibson</option>
+                </select>
+            </div>
+            <div class="filtro__cat">
+                <h5>Por Categoría</h5>
+                <ul class="filter-list">
+                    <li>
+                        <button id="btn-todos-prod" class="btn-menu btn-categoria">Todos</button>
+                    </li>
+                    <li>
+                        <button id="cat-nov" class="btn-menu btn-categoria">Novela</button>
+                    </li>
+                    <li>
+                        <button id="cat-inf" class="btn-menu btn-categoria">Infantil</button>
+                    </li>
+                    <li>
+                        <button id="cat-ave" class="btn-menu btn-categoria">Aventura</button>
+                    </li>
+                    <li>
+                        <button id="cat-fan" class="btn-menu btn-categoria">Fantasía</button>
+                    </li>
+                    <li>
+                        <button id="cat-pol" class="btn-menu btn-categoria">Policial</button>
+                    </li>
+                    <li>
+                        <button id="cat-ter" class="btn-menu btn-categoria">Terror</button>
+                    </li>
+                    <li>
+                        <button id="cat-rom" class="btn-menu btn-categoria">Romántica</button>
+                    </li>
+                    <li>
+                        <button id="cat-cfi" class="btn-menu btn-categoria">C. Ficción</button>
+                    </li>
+                    <li>
+                        <button id="cat-bie" class="btn-menu btn-categoria">Bienestar</button>
+                    </li>
+                    <li>
+                        <button id="cat-coc" class="btn-menu btn-categoria">Cocina</button>
+                    </li>
+                    <li>
+                        <a href="./shopping-cart.html" class="btn-menu btn-carrito"><i class="fa-solid fa-cart-shopping"></i>Tu carrito <span class="numerito" id="numerito-sidebar">0</span></a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="contenedor-categorias">
+            <h2 id="title-categoria" class="title-categoria">Catálogo</h2>
+            <div class="contenedor-libros">          
+                <!-- se agregaran todos los productos posteriormente con JS -->
+                <!-- <div class="libro">
+                        <div class="container-img-libro">
+                            <img class="img-libro" src="${producto.imagen}" alt="${producto.nombre}">
+                        </div>
+                        
+                        <div class="detalles-prod">
+                            <h3 class="title-prod">${producto.nombre}</h3>
+                            <p class="precio-prod">$ ${producto.precio}</p>
+                            <button class="agregar-prod" id="${producto.id}" data-id="${producto.id}">Agregar al <i class="fa-solid fa-cart-shopping carrito"></i></button>
+                        </div>
+                    </div>   -->
+            
+            </div>
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <div class="wave4">
+            <div style="height: 150px; overflow: hidden;" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: hsl(220, 18%, 99%);"></path>
+                </svg>
+            </div>
+        </div>
+        <div class="footer_container container">
+            <div class="footer_logo" >
+                <a href="">
+                    <img src="../images/logo/logo-white.png" alt="Logo Mundo Literario">    
+                </a>
+            </div>
+
+            <div class="footer_content"> 
+                <div class="footer_content_section">     
+                    <h3 class="footer_title">La Empresa</h3>
+                    <ul class="footer_links">
+                        <li>
+                            <a href="../pages/about_us.html" class="footer_link">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="../pages/privacy.html" class="footer_link">Políticas de Privacidad</a>
+                        </li>
+                        <li>
+                            <a href="../pages/terms_conditions.html" class="footer_link">Términos y Condiciones</a>
+                        </li>
+                    </ul>
+                </div > 
+
+                <div class="footer_content_section">
+                    <h3 class="footer_title">Categorías</h3>
+                    <ul class="footer_links">
+                        <li>
+                            <a href="../pages/store.html?q=cat-cfi" class="footer_link">C. Ficción</a>
+                        </li>
+                        <li>
+                            <a href="../pages/store.html?q=cat-nov" class="footer_link">Novela</a>
+                        </li>
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-inf" class="footer_link">Infantil</a>
+                        </li>
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-rom" class="footer_link">Romántica</a>
+                        </li>
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-ter" class="footer_link">Terror</a>
+                        </li>
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-fan" class="footer_link">Fantasía</a>
+                        </li>
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-bie" class="footer_link">Bienestar</a>
+                        </li>     
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-coc" class="footer_link">Cocina</a>
+                        </li>         
+                       
+                    </ul>
+                </div > 
+            
+                <div class="footer_content_section">
+                    <h3 class="footer_title">
+                        Ayuda
+                    </h3>
+                    <ul class="footer_links">
+                        
+                        <li><a href="../pages/pay_media.html" class="footer_link">Medios de Pago</a>
+                        </li>
+                        <li><a href="../pages/cost.html" class="footer_link">Costo de Envío</a>
+                        </li>
+                        <li><a href="../pages/frequent_questions.html" class="footer_link">Preguntas Frecuentes</a>
+                        </li>  
+                    </ul>
+                </div > 
+            </div>
+        </div>
+       
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+        </a>
+         
+    </footer>
+   
+   
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/store.js"></script>
+    <script src="../js/cart.js"></script>
+</body>
+</html>
+
+

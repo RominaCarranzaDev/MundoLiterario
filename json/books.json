@@ -1,0 +1,1404 @@
+[
+    {   
+        "id": "inf-001",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_882261-MLU72592257487_102023-O.webp",
+        "nombre": "Harry Potter y la Orden del Fénix",
+        "autor": "J. K. Rowling",
+        "categoria": {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : "Las tediosas vacaciones de verano en casa de sus tíos todavía no han acabado y Harry se encuentra más inquieto que nunca. Apenas ha tenido noticias de Ron y Hermione, y presiente que algo extraño está sucediendo en Hogwarts. En efecto, cuando por fin comienza otro curso en el famoso colegio de magia y hechicería, sus temores se vuelven realidad. El Ministerio de Magia niega que Voldemort haya regresado y ha iniciado una campaña de desprestigio contra Harry y Dumbledore, para lo cual ha asignado a la horrible profesora Dolores Umbridge la tarea de vigilar todos sus movimientos. Así pues, además de sentirse solo e incomprendido, Harry sospecha que Voldemort puede adivinar sus pensamientos, e intuye que el temible mago trata de apoderarse de un objeto secreto que le permitiría recuperar su poder destructivo.",
+        "precio": 32599,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Salamandra"
+        
+    },
+    {   
+        "id": "inf-002",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_908101-MLU72591480185_102023-O.webp",
+        "nombre": "Harry Potter y el cáliz de fuego",
+        "autor": "J. K. Rowling",
+        "categoria":  {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : "Tras otro abominable verano con los Dursley, Harry se dispone a iniciar el cuarto curso en Hogwarts, la famosa escuela de magia y hechicería. A sus catorce años, a Harry le gustaría ser un joven mago como los demás y dedicarse a aprender nuevos sortilegios, encontrarse con sus amigos Ron y Hermione y asistir con ellos a los Mundiales de quidditch. Sin embargo, al llegar al colegio le espera una gran sorpresa que lo obligará a enfrentarse a los desafíos más temibles de toda su vida. Si logra superarlos, habrá demostrado que ya no es un niño y que está preparado para vivir las nuevas y emocionantes experiencias que el futuro le depara.",
+        "precio": 29999,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Salamandra"
+        
+    },
+    {   
+        "id": "inf-003",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_782865-MLU72894559154_112023-F.webp",
+        "nombre": "Harry Potter y el Príncipe Mestizo",
+        "autor": "J. K. Rowling",
+        "categoria":  {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : "Acompaña a Harry en su penúltimo año en Hogwarts, donde misterios y secretos del pasado salen a la luz. Con cada página, descubre más sobre el oscuro pasado de Lord Voldemort y los desafíos que enfrenta nuestro héroe",
+        "precio": 26510,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Salamandra"
+        
+    },
+    {   
+        "id": "inf-004",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_987099-MLA46900297399_072021-F.webp",
+        "nombre": "Harry Potter y el legado maldito",
+        "autor": "J. K. Rowling",
+        "categoria":  {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : null,
+        "precio": 15799,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Salamandra"
+        
+    },
+    {   
+        "id": "inf-005",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_873249-MLU72972320833_112023-O.webp",
+        "nombre": "Harry Potter y las reliquias de la Muerte",
+        "autor": "J. K. Rowling",
+        "categoria":  {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : null,
+        "precio": 14099,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Salamandra"
+        
+    },
+    {   
+        "id": "inf-006",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_836548-MLA32528583917_102019-O.webp",
+        "nombre": "Harry Potter y la camara secreta",
+        "autor": "J. K. Rowling",
+        "categoria":  {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : null,
+        "precio": 14199,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Salamandra"
+        
+    },
+    {   
+        "id": "inf-007",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_928593-MLA42926491838_072020-O.webp",
+        "nombre": "Anne, la de Tejados Verdes",
+        "autor": "Lucy M. Montgomery",
+        "categoria":  {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : null,
+        "precio": 22900,
+        "stock" : 0,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Salamandra"
+        
+    },
+    {   
+        "id": "inf-008",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_828256-MLA71239541736_082023-O.webp",
+        "nombre": "Diario de Pilar en Egipto",
+        "autor": "Flavia Lins E Silva",
+        "categoria":  {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : null,
+        "precio": 12599,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": null
+        
+    },
+    {   
+        "id": "inf-009",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_996445-MLU72894555360_112023-O.webp",
+        "nombre": "Gravity Falls",
+        "autor": "Alex Hirsch",
+        "categoria":  {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : null,
+        "precio": 32599,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": null
+        
+    },
+    {   
+        "id": "inf-010",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_943745-MLU72590202863_102023-O.webp",
+        "nombre": "Monstruo de colores",
+        "autor": "Anna Llenas",
+        "categoria": {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : null,
+        "precio": 21730,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Flamboyant"
+        
+    },
+    {   
+        "id": "inf-011",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_616352-MLA51483028556_092022-O.webp",
+        "nombre": "Quiero Ser Perez",
+        "autor": "Margarita Maine",
+        "categoria": {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : "Ramoní es un ratoncito con un sueño especial: convertirse en el Ratón Pérez.",
+        "precio": 7200,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": null
+        
+    },
+    {   
+        "id": "inf-012",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_754475-MLU73207946833_122023-O.webp",
+        "nombre": "Coraline",
+        "autor": "Neil Gaiman",
+        "categoria": {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : "Al día siguiente de mudarse de casa, Coraline explora las catorce puertas de su nuevo hogar. Trece se pueden abrir con normalidad, pero la decimocuarta está cerrada y tapiada. Cuando por fin consigue abrirla, Coraline se encuentra con un pasadizo secreto que la conduce a otra casa tan parecida a la suya que resulta escalofriante.",
+        "precio": 12899,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Salamandra"
+        
+    },
+    {   
+        "id": "inf-013",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_856560-MLU74995026772_032024-O.webp",
+        "nombre": "Cuentos De La Selva Niños",
+        "autor": "Horacio Quiroga",
+        "categoria": {
+            "id": "cat-inf",
+            "nombre": "infantil",
+            "sub_categoria": "infantil"
+        },
+        "descripcion" : "Narra historias de animales en la selva que reflejan las virtudes y defectos humanos. Estas fábulas se caracterizan por su belleza y sencillez, y están escritas con el estilo distintivo de Quiroga. Cada cuento lleva consigo una enseñanza valiosa sobre la vida y la naturaleza.",
+        "precio": 6599,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": null
+        
+    },
+    {   
+        "id": "nov-001",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_758457-MLU75135654463_032024-O.webp",
+        "nombre": "La Felicidad. Más allá de la ilusión",
+        "autor": "Gabriel Rolón",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "psicología"
+        },
+        "descripcion" : "Como imposible y como quimera, como fin y también como imperativo, la idea de la felicidad nos interpela más que nunca en los tiempos que corren. '¿Cómo ser felices?', esa sentencia  que nos sobrevuela como mandato del mundo moderno se impuso para encandilarnos y hacernos perder de vista aquella que debería ser la pregunta nodal: '¿Qué es la felicidad?'" ,
+        "precio": 24599,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Paidós"
+ 
+    },
+    {   
+        "id": "nov-002",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_612532-MLU72591483745_102023-O.webp",
+        "nombre": "El duelo. Cuando el dolor se hace carne",
+        "autor": "Gabriel Rolón",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "psicología"
+        },
+        "descripcion" : "'El Duelo' nos invita a transitar el camino de la pérdida, a dialogar acerca de la muerte sin rodeos. Pero también pone cara a cara frente a la falta imprevista de aquello que nos mantiene anclados a la vida. La pérdida de un trabajo, una pareja, un hogar, del reconocimiento de un otro y hasta de la juventud nos empujan al proceso de duelo.",
+        "precio": 16599,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Planeta"
+        
+    },
+    {   
+        "id": "nov-003",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_688697-MLA47586926031_092021-O.webp",
+        "nombre": "Palabras Cruzadas",
+        "autor": "Gabriel Rolón",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria":"psicología"
+        },
+        "descripcion" : "",
+        "precio": 28599,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Planeta"
+        
+    },
+    {   
+        "id": "nov-004",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_872439-MLU72520024306_102023-O.webp",
+        "nombre": "Historias de diván: Diez relatos de vida.",
+        "autor": "Gabriel Rolón",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "psicología"
+        },
+        "descripcion" : "Este libro no solo celebra la conexión entre el escritor y sus lectores, sino que también cumple con el objetivo de Rolón de mantener al psicoanálisis como una herramienta transformadora de vidas.",
+        "precio": 16599,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Planeta"
+        
+    },
+    
+    {   
+        "id": "nov-009",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_943099-MLU73140278881_112023-O.webp",
+        "nombre": "Las garras del águila",
+        "autor": "Karin Smirnoff",
+        "categoria": {
+            "id": "cat-pol",
+            "nombre": "policial",
+            "sub_categoria": "policial y espionaje"
+        },
+        "descripcion" : "El frío norte de Suecia se convertirá en el escenario en el que Lisbeth Salander, Mikael Blomkvist y la indomable Svala se enfrentarán a una red de corrupción amparada en la explotación de energías renovables y combatirán la violencia contra las mujeres, en medio del ambiente político en el que asciende la ultraderecha.",
+        "precio": 27099,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Destino"
+        
+    },
+    {   
+        "id": "nov-010",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_617981-MLU72521939978_102023-O.webp",
+        "nombre": "El extranjero",
+        "autor": "Albert Camus",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela"
+        },
+        "descripcion" : "El Extranjero' retrata la existencia en Argel de Meursault, un joven oficinista. La rutina y personajes ambiguos llenan sus días, inmutables ante eventos como el fallecimiento de su madre o la relación con una mujer. Un homicidio impulsivo lleva a Meursault a enfrentarse a una sociedad que lo juzga no solo por su acción, sino por su indiferencia ante la vida.",
+        "precio": 9699,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Alianza De Novelas (ADN)"
+        
+    },
+    {   
+        "id": "nov-011",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_664330-MLU73795195268_012024-O.webp",
+        "nombre": "El viento conoce mi nombre",
+        "autor": "Isabel Allende",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela"
+        },
+        "descripcion" : "Viena, 1938. Samuel Adler es un niño judío de seis años cuyo padre desaparece durante la Noche de los Cristales Rotos, en la que su familia lo pierde todo. Su madre, desesperada, le consigue una plaza en un tren que le llevará desde la Austria nazi hasta Inglaterra. Samuel emprende una nueva etapa con su fiel violín y con el peso de la soledad y la incertidumbre, que lo acompañarán siempre en su dilatada vida.",
+        "precio": 21999,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Plaza & Janés"
+        
+    },
+    {   
+        "id": "nov-012",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_627116-MLU75135845629_032024-O.webp",
+        "nombre": "El amor es imposible: Ocho tesis filosóficas",
+        "autor": "Darío Sztajnszrajber",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela"
+        },
+        "descripcion" : "Este libro es una propuesta de deconstrucción radical sobre uno de los eventos más radicales de nuestra existencia. Ocho tesis que tienen el arrojo de devenir en una serie de desvelos, nuevas intuiciones, destellos que nos inviten a temblar. Es la puesta en página de una práctica política concreta, que increpa a ese amor comercial, romántico, que se nos vende como dominante, como único y normativo.",
+        "precio": 24999,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": null
+        
+    },
+    {   
+        "id": "nov-013",    
+        "imagen": "https://books.google.com.ar/books/publisher/content?id=Ru_GEAAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U2ZDfVSrGekZVNowMP890o9I6hQhw&w=1280",
+        "nombre": "Seduciendo a Mr. Bridgerton",
+        "autor": "Julia Quinn",
+        "categoria": {
+            "id": "cat-rom",
+            "nombre": "romantica",
+            "sub_categoria": "romantica"
+        },
+        "descripcion" : "A sus veintiocho años, Penélope se ha resignado ya a convertirse en una solterona destinada a envejer cuidando a su madre. Durante una década, ha asistido a todas las fiestas de la aristocracia londinense, y siempre ha sido la muchacha mediocre, callada, la que nadie saca a bailar más que por compromiso, la que pasa inadvertida para todos. También para Colin Bridgeton, hermano de la mejora amiga de Penélope, guapo, audaz, soltero de oro... y su amor platónico desde siempre. Para Colin, Penélope siempre ha estado ahí, simpática, agradable, pero casi invisible. ¿Cómo es posible que todo cambie de repente?",
+        "precio": 25499,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Titania"
+        
+    },
+    {   
+        "id": "nov-014",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_699090-MLA47712817116_092021-O.webp",
+        "nombre": "Lecciones De Juventud",
+        "autor": "Danielle Steel",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela"
+        },
+        "descripcion" : "Saint Ambrose es un colegio exclusivo con más de un siglo de historia, conocido por educar a los varones más adinerados de la región. Este año, por primera vez, el colegio abre sus puertas a estudiantes femeninas en un entorno aparentemente idílico que esconde problemas familiares, inseguridades y soledad. Un suceso oscuro se revela cuando, después de una celebración, una alumna es hallada inconsciente y hospitalizada. Los que conocen la verdad optan por el silencio, pero conforme avanza la investigación y las autoridades buscan al responsable, los implicados se ven ante una disyuntiva moral.",
+        "precio": 20799,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Plaza & Janés"
+        
+    },
+    {   
+        "id": "nov-015",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_849716-MLU74067460840_012024-O.webp",
+        "nombre": "El asesino ciego",
+        "autor": "Margaret Atwood",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela"
+        },
+        "descripcion" : "Una arriesgada pasión amorosa en la turbulenta década de los treinta entre una joven adinerada y un fugitivo, que urden una fantasía ambientada en el planeta Zicrón durante sus encuentros secretos. A medida que el amor, el sacrificio y la traición complican la historia inventada y la real, todo se precipita hacia la guerra y la catástrofe.",
+        "precio": 35999,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Salamandra"
+        
+    },
+    {   
+        "id": "nov-016",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_799023-MLA26940351948_032018-O.webp",
+        "nombre": "Del Amor Y Otros Demonios",
+        "autor": "Gabriel García Márquez",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela"
+        },
+        "descripcion" : "La historia se despliega tras el incidente en el que un perro muerde a cuatro personas en el mercado, entre ellas a Sierva María, hija única del marqués de Casalduero, que estaba comprando adornos para su cumpleaños.",
+        "precio": 15799,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Literatura Random House"
+        
+    },
+    {   
+        "id": "nov-017",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_659871-MLU73253128962_122023-O.webp",
+        "nombre": "La Llegada De Los Tres. La Torre Oscura II",
+        "autor": "Stephen King",
+        "categoria": {
+            "id": "cat-ter",
+            "nombre": "terror",
+            "sub_categoria": "terror"
+        },
+        "descripcion" :" Después de enfrentarse con el hombre de negro al final de El pistolero, Roland se despierta febril y debilitado en una playa. Al caer la noche le atacan unos seres monstruosos que salen del mar. Para eludirlos, Roland puede huir de la playa por tres salidas, tres puertas. Todas le llevarán a Nueva York, pero en tres momentos distintos; además, al otro lado de cada una de ellas Roland tendrá que atraer a una persona. Necesita a estas tres personas para seguir adelante en su búsqueda de la Torre Oscura: en el año 1987 encuentra a Eddie Dean, heroinómano desesperado; en 1964 a Odetta Holmes, la Dama de las Sombras, heredera afroamericana que perdió sus piernas en un accidente en el metro; finalmente, en 1977, da con Jack Mort, la propia muerte. ¿Serán ellos los que formarán su ka-tet?",
+        "precio": 20199,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Plaza & Janés"
+        
+    },
+    {   
+        "id": "nov-018",    
+        "imagen": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES/201110/04_1/00106520471928___P2_1000x1000.jpg",
+        "nombre": "El nombre del viento",
+        "autor": "Patrick Rothfuss",
+        "categoria": {
+            "id": "cat-fan",
+            "nombre": "fantasía",
+            "sub_categoria": "novela fantástica"
+        },
+        "descripcion" : "La historia sigue a Kvothe, un joven prodigio con un talento innato para la magia y la música, mientras narra su vida en una taberna. Kvothe relata sus aventuras desde su infancia en una troupe de artistas hasta su tiempo en la Universidad Arcana, donde busca conocimiento y respuestas sobre la misteriosa muerte de sus padres.",
+        "precio": 22667,
+        "stock" : 15,
+        "oferta": false,
+        "novedad": true,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Plaza & Janés"    
+    },
+    {   
+        "id": "nov-019",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_717384-MLU72521938748_102023-F.webp",
+        "nombre": "1984",
+        "autor": "George Orwell",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela distópica"
+        },
+        "descripcion" : "En un mundo totalitario y distópico, Winston Smith trabaja para el Ministerio de la Verdad, donde su tarea es reescribir la historia para que se ajuste a los intereses del partido gobernante. Sin embargo, Winston comienza a cuestionar la realidad que le rodea y se embarca en un peligroso viaje de rebelión contra el régimen opresivo.",
+        "precio": 12999,
+        "stock" : 20,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Destino"   
+    },
+    {
+        "id": "nov-020",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_658325-MLA45290046909_032021-F.webp",
+        "nombre": "Un Mundo Feliz",
+        "autor": "Aldous Huxley",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria":"novela distópica"
+        },
+        "descripcion": "En un futuro distópico, la sociedad está controlada por el Estado Mundial, donde la felicidad es obligatoria y se logra mediante el consumo de drogas y la supresión de emociones negativas. Sin embargo, un hombre llamado John, nacido fuera de este sistema, desafía las normas establecidas y cuestiona la verdadera naturaleza de la felicidad y la libertad.",
+        "precio": 14999,
+        "stock": 15,
+        "oferta": false,
+        "novedad": true,
+        "venta": 10,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Debolsillo"
+    },
+    {
+        "id": "nov-021",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_658929-MLU72592255215_102023-F.webp",
+        "nombre": "Fahrenheit 451",
+        "autor": "Ray Bradbury",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela distópica"
+        },
+        "descripcion": "En un futuro distópico, los libros están prohibidos y son quemados por los bomberos, cuya misión es suprimir cualquier forma de pensamiento crítico. Guy Montag, un bombero, comienza a cuestionar su papel en la sociedad y se embarca en un viaje para descubrir el valor de la literatura y la libertad de expresión.",
+        "precio": 11999,
+        "stock": 25,
+        "oferta": true,
+        "novedad": false,
+        "venta": 5,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Minotauro"
+    },
+    {
+        "id": "nov-022",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_608559-MLU72522559906_102023-F.webp",
+        "nombre": "Los Juegos del Hambre",
+        "autor": "Suzanne Collins",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria":"novela distópica"
+        },
+        "descripcion": "En un mundo postapocalíptico, el país de Panem obliga a sus doce distritos a enviar a un chico y a una chica como tributos para competir en los Juegos del Hambre, un evento televisado donde los participantes luchan a muerte. Katniss Everdeen, una joven del Distrito 12, se ofrece como voluntaria para salvar a su hermana, desencadenando una serie de eventos que desafían al sistema opresivo del Capitolio.",
+        "precio": 13999,
+        "stock": 30,
+        "oferta": false,
+        "novedad": false,
+        "venta": 15,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "RBA"
+    },
+    {
+        "id": "nov-023",
+        "imagen": "https://www.elsotano.com/imagenes_grandes/9786073/978607319256.JPG",
+        "nombre": "El cuento de la criada",
+        "autor": "Margaret Atwood",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria":"novela distópica"
+        },
+        "descripcion": "En un Estados Unidos distópico y teocrático, las mujeres fértiles son esclavizadas como criadas sexuales, llamadas \"criadas\", con el fin de procrear para las élites gobernantes. Offred, una de estas criadas, narra su historia de supervivencia y resistencia en un mundo donde la libertad y los derechos humanos han sido completamente suprimidos.",
+        "precio": 15999,
+        "stock": 10,
+        "oferta": false,
+        "novedad": true,
+        "venta": 5,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Salamandra"
+    },
+    {
+        "id": "nov-024",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_835296-MLU73764844488_012024-F.webp",
+        "nombre": "Neuromante",
+        "autor": "William Gibson",
+        "categoria": {
+            "id": "cat-cfi",
+            "nombre": "ciencia ficción",
+            "sub_categoria": "ciencia ficción"
+        },
+        "descripcion": "En un futuro ciberpunk, Case es un ex-hacker adicto que ha sido privado de su habilidad para acceder al ciberespacio. Se le ofrece una oportunidad para recuperar su habilidad si realiza un último trabajo: infiltrarse en los sistemas de una poderosa inteligencia artificial. En su búsqueda, Case se encuentra con conspiraciones corporativas, mercenarios y una realidad virtual desconcertante.",
+        "precio": 16999,
+        "stock": 8,
+        "oferta": true,
+        "novedad": false,
+        "venta": 3,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Minotauro"
+    },
+    {
+        "id": "nov-025",
+        "imagen": "https://2.bp.blogspot.com/-1gGwgIwKi3c/VtCLVJTRioI/AAAAAAAAB2A/KTph3oC73LA/s1600/ElFinDeLaEternidad.jpg",
+        "nombre": "El fin de la eternidad",
+        "autor": "Isaac Asimov",
+        "categoria": {
+            "id": "cat-cfi",
+            "nombre": "ciencia ficción",
+            "sub_categoria": "ciencia ficción"
+        },
+        "descripcion": "En un futuro distante, la humanidad ha descubierto la tecnología para viajar en el tiempo. La Eternidad, una organización secreta, manipula el tiempo para evitar crisis y guiar el curso de la historia. Sin embargo, cuando un viajero en el tiempo se enamora de una mujer de la era pasada, se enfrenta a una elección entre el amor y el deber.",
+        "precio": 14999,
+        "stock": 12,
+        "oferta": false,
+        "novedad": false,
+        "venta": 7,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Debolsillo"
+    },
+    {
+        "id": "nov-026",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_951620-MLA43677613114_102020-F.webp",
+        "nombre": "Dune",
+        "autor": "Frank Herbert",
+        "categoria": {
+            "id": "cat-cfi",
+            "nombre": "ciencia ficción",
+            "sub_categoria": "ciencia ficción"
+        },
+        "descripcion": "En un futuro lejano, el planeta desértico de Arrakis es el único productor conocido de la especia melange, una sustancia valiosa que otorga habilidades psíquicas y prolonga la vida. La familia noble de los Atreides es enviada a gobernar Arrakis, pero se ven envueltos en una lucha por el control del planeta y su recurso más preciado.",
+        "precio": 17999,
+        "stock": 20,
+        "oferta": true,
+        "novedad": false,
+        "venta": 15,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Debolsillo"
+    },
+    {
+        "id": "nov-027",
+        "imagen": "https://1.bp.blogspot.com/--vAaeusGznA/W6KYPVARu3I/AAAAAAAAAKo/7TS2mYPDUTEGojabyiI7y4B6emEDbEjtgCLcBGAs/s1600/9788401352836.jpg",
+        "nombre": "El temor de un hombre sabio",
+        "autor": "Patrick Rothfuss",
+        "categoria": {
+            "id": "cat-fan",
+            "nombre": "fantasía",
+            "sub_categoria": "fantasía épica"
+        },
+        "descripcion": "Kvothe, conocido en leyendas como el Asesino del Rey, relata su vida desde su infancia como miembro de una troupe itinerante hasta convertirse en un mago legendario y héroe de muchas historias. En su búsqueda de la verdad detrás de las leyendas, Kvothe enfrenta desafíos mágicos, amoríos trágicos y secretos oscuros.",
+        "precio": 18999,
+        "stock": 25,
+        "oferta": false,
+        "novedad": false,
+        "venta": 18,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Plaza & Janés"
+    },
+    {
+        "id": "nov-028",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_696465-MLU72972260245_112023-F.webp",
+        "nombre": "Cien años de soledad",
+        "autor": "Gabriel García Márquez",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "realismo mágico"
+        },
+        "descripcion": "La novela sigue la historia de la familia Buendía a lo largo de siete generaciones en el pueblo ficticio de Macondo. Llena de realismo mágico, la narrativa combina lo fantástico con lo histórico mientras explora temas como el amor, la soledad, la guerra y la decadencia. Un relato épico que captura la esencia de América Latina.",
+        "precio": 15999,
+        "stock": 15,
+        "oferta": false,
+        "novedad": false,
+        "venta": 10,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Alfaguara"
+    },
+    {
+        "id": "nov-029",
+        "imagen": "https://imagessl5.casadellibro.com/a/l/t0/55/9788408074755.jpg",
+        "nombre": "El alquimista",
+        "autor": "Paulo Coelho",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "ficción espiritual"
+        },
+        "descripcion": "Santiago, un joven pastor andaluz, sueña con encontrar un tesoro en las Pirámides de Egipto. En su búsqueda del significado de la vida y la realización personal, se encuentra con personajes místicos y experiencias que lo llevan a descubrir su destino. Una historia inspiradora sobre el poder de los sueños y la búsqueda de la propia leyenda personal.",
+        "precio": 12999,
+        "stock": 20,
+        "oferta": true,
+        "novedad": false,
+        "venta": 12,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Planeta"
+    },
+    {
+        "id": "nov-030",
+        "imagen": "https://idunneditorial.com/wp-content/uploads/2016/04/El-guardia%CC%81n-entre-el-centeno.jpg",
+        "nombre": "El guardián entre el centeno",
+        "autor": "J.D. Salinger",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela contemporánea"
+        },
+        "descripcion": "La novela sigue a Holden Caulfield, un adolescente alienado que acaba de ser expulsado de su escuela. Durante unos días en Nueva York, Holden navega por las complejidades de la adolescencia, confrontando la hipocresía y la superficialidad de la sociedad adulta mientras lucha por encontrar autenticidad y conexión emocional.",
+        "precio": 13999,
+        "stock": 18,
+        "oferta": false,
+        "novedad": false,
+        "venta": 10,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Alianza De Novelas (ADN)"
+    },
+    {
+        "id": "nov-031",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_728131-MLU72592259293_102023-F.webp",
+        "nombre": "La sombra del viento",
+        "autor": "Carlos Ruiz Zafón",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela histórica"
+        },
+        "descripcion": "En la Barcelona de posguerra, Daniel Sempere descubre un misterioso libro titulado 'La sombra del viento' en el Cementerio de los Libros Olvidados. Obsesionado por el autor desconocido, Daniel se embarca en una búsqueda para desentrañar la vida y las circunstancias que rodean al escritor y su obra, enfrentándose a secretos oscuros y peligros inesperados.",
+        "precio": 15999,
+        "stock": 15,
+        "oferta": false,
+        "novedad": false,
+        "venta": 8,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Planeta"
+    },
+    {
+        "id": "nov-032",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_874575-MLU48309158602_112021-F.webp",
+        "nombre": "El laberinto de los espíritus",
+        "autor": "Carlos Ruiz Zafón",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela histórica"
+        },
+        "descripcion": "En la Barcelona de posguerra, Alicia Gris, una investigadora privada, se embarca en la búsqueda de un misterioso desaparecido en una trama llena de secretos familiares y oscuros. En su camino, descubre conexiones con el pasado y con un misterioso libro llamado 'El cementerio de los libros olvidados'.",
+        "precio": 17999,
+        "stock": 20,
+        "oferta": true,
+        "novedad": false,
+        "venta": 15,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Planeta"
+    },
+    {
+        "id": "nov-033",
+        "imagen": "https://www.mejoreslibros.top/wp-content/uploads/2021/05/El-codigo-Da-Vinci-1009x1536.jpg",
+        "nombre": "El código Da Vinci",
+        "autor": "Dan Brown",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "thriller"
+        },
+        "descripcion": "Cuando el renombrado curador del Louvre es encontrado muerto en circunstancias misteriosas, el profesor de simbología Robert Langdon es llamado para descifrar los enigmas que rodean su muerte. Junto a Sophie Neveu, una criptógrafa francesa, Langdon se embarca en una frenética búsqueda de la verdad, enfrentándose a secretos ancestrales y sociedades secretas.",
+        "precio": 14999,
+        "stock": 25,
+        "oferta": false,
+        "novedad": false,
+        "venta": 18,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Umbriel"
+    },
+    {
+        "id": "nov-034",
+        "imagen": "../images/1.png",
+        "nombre": "Muerte en El Nilo",
+        "autor": "Agatha Christie",
+        "categoria": {
+            "id": "cat-pol",
+            "nombre": "policial",
+            "sub_categoria": "policial"
+        },
+        "descripcion": "Durante unas placenteras vacaciones en Egipto, el detective Hércules Poirot coincide con Linnet y Simon, unos conocidos que están de luna de miel en el país de los faraones. El encanto de tan maravillosos días se rompe cuando una mañana, en el transcurso de un crucero por el Nilo, la bella Linnet aparece muerta de un disparo en la cabeza. ¿Será capaz Poirot de encontrar al asesino de la joven esposa? ¿Podrá discernir entre imaginación y realidad aun estando a bordo la ex pareja de Simon, empeñada desde el mismo día de la boda en arruinar su matrimonio con la desafortunada Linnet?",
+        "precio": 29300,
+        "stock": 25,
+        "oferta": false,
+        "novedad": false,
+        "venta": 18,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Booket"
+    },
+    {
+        "id": "nov-035",
+        "imagen": "../images/2.png",
+        "nombre": "Misery",
+        "autor": "Stephen King",
+        "categoria": {
+            "id": "cat-terror",
+            "nombre": "terror",
+            "sub_categoria": "terror"
+        },
+        "descripcion": "Paul Shledon es un escritor que sufre un grave accidente y recobra el conocimiento en una apartada casa en la que vive una misteriosa mujer, corpulenta y de extraño carácter. Se trata de una antigua enfermera, involucrada en varias muertes misteriosas ocurridas en diversos hospitales. Fanática de un personaje de una serie de libros que él ha decido dejar de escribir, está dispuesta a hacer todo lo necesario para «convencerlo» de que retome la escritura. Esta mujer es capaz de los mayores horrores, y Paul, con las piernas rotas y entre terribles dolores, tendrá que luchar por su vida.",
+        "precio": 11300,
+        "stock": 25,
+        "oferta": false,
+        "novedad": false,
+        "venta": 18,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Plaza & Janés"
+    },
+    {
+        "id": "nov-036",
+        "imagen": "../images/3.png",
+        "nombre": "22/11/63",
+        "autor": "Stephen King",
+        "categoria": {
+            "id": "cat-cfi",
+            "nombre": "C. Ficción",
+            "sub_categoria": "C. Ficción"
+        },
+        "descripcion": "Harry Dunning escribe una redaccioón que cuenta lo que ocurrió la noche en que su padre volvió borracho a casa y mató a golpes de martillo a su madre, a su hermano y a su hermana. Harry logró salvarse. Poco después, Al, amigo de Jake y propietario del diner del barrio, le revela un gran secreto: en su almacen ha encontrado una puerta que conduce al año 1958. Al le ruega a Jake que viaje en el tiempo para cumplir una misión demencial: impedir el asesinato de Kennedy. Jake conseguirá trasladarse al año 1958 para comenzar una nueva vida con una nueva identidad. Jake sabe que cuando vuelva a su tiempo solamente habrán pasado dos minutos en su mundo, pero, ¿qué otros cambios habrán provocado sus acciones?",
+        "precio": 11300,
+        "stock": 25,
+        "oferta": false,
+        "novedad": false,
+        "venta": 18,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Plaza & Janés"
+    },
+    {
+        "id": "nov-037",
+        "imagen": "../images/4.png",
+        "nombre": "El Instituto",
+        "autor": "Stephen King",
+        "categoria": {
+            "id": "cat-terror",
+            "nombre": "terror",
+            "sub_categoria": "terror"
+        },
+        "descripcion": "En mitad de la noche en un barrio tranquilo de Minneapolis raptan a Luke Ellis, de doce años, tras haber asesinado a sus padres. Una operación que dura menos de dos minutos. Luke se despierta en la siniestra institución conocida como el Instituto, en un cuarto que se asemeja al suyo pero sin ventanas. En habitaciones parecidas hay más niños: Kalisha, Nick, George, Iris y Avery Dixon, entre otros, que comparten capacidades especiales como la telequinesia o la telepatía. Todos ellos se alojan en la Mitad Delantera de la institución. Los mayores, en cambio, se encuentran en la Mitad Trasera. Como dice Kalisha: «El que entra no sale».",
+        "precio": 11300,
+        "stock": 25,
+        "oferta": false,
+        "novedad": false,
+        "venta": 18,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Plaza & Janés"
+    },
+    {
+        "id": "nov-038",
+        "imagen": "../images/6.png",
+        "nombre": "El Señor de los Anillos. La comunidad del anillo.",
+        "autor": "J. R. R. Tolkien",
+        "categoria": {
+            "id": "cat-fan",
+            "nombre": "fantasía",
+            "sub_categoria": "fantasía"
+        },
+        "descripcion": "Cuando el señor Bilbo Bolsón de Bolsón Cerrado anunció que muy pronto celebraría su cumpleaños centesimodecimoprimero con una fiesta de especial magnificencia, hubo muchos comentarios y excitación en Hobbiton. Bilbo era muy rico y muy peculiar, y había sido el asombro de la Comarca durante sesenta años, desde su memorables desaparición e inesperado regreso. Las riquezas que había traído de aquellos viajes se habían convertido en leyenda local, y era creeencia común, contra todo lo que pudieran decir los viejos, que en la Colina de Bolsón Cerrado había muchos túneles atiborrados de tesoros.",
+        "precio": 11300,
+        "stock": 25,
+        "oferta": false,
+        "novedad": false,
+        "venta": 18,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": null
+    },
+    {
+        "id": "nov-039",
+        "imagen": "../images/img1.webp",
+        "nombre": "El Aleph",
+        "autor": "Jorge Luis Borges",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "cuento"
+        },
+        "descripcion": "El Aleph es un libro icónico de Jorge Luis Borges, los cuentos que lo integran son un prodigio de puzles filosóficos, intrigas fantásticas o policíacas y personajes que se graban en la memoria, como Emma Zunz. Aborda uno de los temas recurrentes en la literatura de Borges: el infinito. También puede leerse como una historia de amor con un comienzo memorable: «La candente mañana de febrero en que Beatriz Viterbo murió, después de una imperiosa agonía que no se rebajó un solo instante ni al sentimentalismo ni al miedo, noté que las carteleras de fierro de la Plaza Constitución habían renovado no sé qué aviso de cigarrillos rubios; el hecho me dolió, pues comprendí que el incesante y vasto universo ya se apartaba de ella y que ese cambio era el primero de una serie infinita».",
+        "precio": 11300,
+        "stock": 25,
+        "oferta": false,
+        "novedad": false,
+        "venta": 18,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Lumen"
+    },
+    {
+        "id": "nov-040",
+        "imagen": "../images/img_2.webp",
+        "nombre": "Muchas vidas, muchos maestros",
+        "autor": "Brian Weiss",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "psicología"
+        },
+        "descripcion": "El doctor Brian Weiss —psiquiatra del hospital Mount Sinai de Miami— relata en este libro su experiencia con Catherine, una paciente a quien trató bajo hipnosis, luego de intentar sin éxito durante un año la terapia convencional. En estado de trance profundo -solo un 15% de los hipnotizados logran llegar a este- Catherine recordó sus vidas anteriores y revivió sus traumas que eran la clave de sus constantes pesadillas y su ansiedad.",
+        "precio": 11300,
+        "stock": 25,
+        "oferta": false,
+        "novedad": false,
+        "venta": 18,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Ediciones B"
+    },
+    {
+        "id": "nov-041",
+        "imagen": "../images/img_3.webp",
+        "nombre": "Ecos del pasado",
+        "autor": "Diana Gabaldon",
+        "categoria": {
+            "id": "cat-rom",
+            "nombre": "romantica",
+            "sub_categoria": "romantica"
+        },
+        "descripcion": "Jamie Fraser, antiguo jacobita y rebelde a su pesar, tiene claras tres cosas sobre la sublevación de las colonias americanas: que esta prosperará, que luchar en el lado vencedor no es garantía de supervivencia, y que prefiere la muerte a tener que enfrentarse en el campo de batalla a su hijo ilegítimo, un joven teniente del ejército británico. Claire Randall, por su parte, sabe que los americanos triunfarán, pero no a qué precio, y hará cuanto esté en su mano para garantizar la supervivencia y la felicidad de su esposo.",
+        "precio": 11300,
+        "stock": 25,
+        "oferta": false,
+        "novedad": false,
+        "venta": 18,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Salamandra"
+    },
+    {
+        "id": "nov-042",
+        "imagen": "../images/7.png",
+        "nombre": "Miss Marple. Doce casos nuevos",
+        "autor": "Agatha Christie",
+        "categoria": {
+            "id": "cat-nov",
+            "nombre": "novela",
+            "sub_categoria": "novela"
+        },
+        "descripcion": "La inmortal Miss Marple, la legendaria detective creada por Agatha Christie, vuelve a la acción tras su último caso cuarenta y cinco años atrás. Doce célebres escritoras contemporáneas capturan la voz única de la sagaz investigadora en doce nuevas historias, doce nuevos y trepidantes casos repletos de misterio, emoción e ingenio con los que rememorar a una de las detectives más importantes de todos los tiempos. Una celebración triunfal del legado de Agatha Christie y una lectura esencial para los amantes del crimen.",
+        "precio": 25900,
+        "stock": 25,
+        "oferta": false,
+        "novedad": false,
+        "venta": 18,
+        "carrito": {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Molino"
+    },
+    {   
+        "id": "bie-001",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_868901-MLA44173101432_112020-O.webp",
+        "nombre": "Escribir Para Sanar",
+        "autor": "Silvia Adela Kohan",
+        "categoria": {
+            "id": "cat-bie",
+            "nombre": "bienestar",
+            "sub_categoria": "bienestar"
+        },
+        "descripcion" : null,
+        "precio": 26599,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Terapias Verdes"
+        
+    },
+    {   
+        "id": "bie-002",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_644541-MLM45575301818_042021-O.webp",
+        "nombre": "Registros Akashicos: Sanación del Alma",
+        "autor": "Claudia Federica Zosi",
+        "categoria": {
+            "id": "cat-bie",
+            "nombre": "bienestar",
+            "sub_categoria": "bienestar"
+        },
+        "descripcion" : null,
+        "precio": 14800,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Kier Ediciones"
+        
+    },
+    {   
+        "id": "bie-003",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_650880-MLA27527018462_062018-O.webp",
+        "nombre": "Pideselo al Universo",
+        "autor": "Barbel Mohr",
+        "categoria": {
+            "id": "cat-bie",
+            "nombre": "bienestar",
+            "sub_categoria": "bienestar"
+        },
+        "descripcion" : null,
+        "precio": 18500,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Robinbook"
+        
+    },
+    {   
+        "id": "bie-004",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_943948-MLA43406261819_092020-O.webp",
+        "nombre": "Este dolor no es mío",
+        "autor": "Mark Wolynn",
+        "categoria": {
+            "id": "cat-bie",
+            "nombre": "bienestar",
+            "sub_categoria": "bienestar"
+        },
+        "descripcion" : null,
+        "precio": 23999,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Gaia Ediciones"
+        
+    },
+    {   
+        "id": "bie-005",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_881845-MLA69981251994_062023-O.webp",
+        "nombre": "Ashtanga Vinyasa Yoga",
+        "autor": "Alejandro Chiarella",
+        "categoria": {
+            "id": "cat-bie",
+            "nombre": "bienestar",
+            "sub_categoria": "bienestar"
+        },
+        "descripcion" : null,
+        "precio": 27599,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Kier Ediciones"
+        
+    },
+    {   
+        "id": "bie-006",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_889814-MLA71645600706_092023-O.webp",
+        "nombre": "Recordar quien soy",
+        "autor": "Enric Corbera",
+        "categoria": {
+            "id": "cat-bie",
+            "nombre": "bienestar",
+            "sub_categoria": "bienestar"
+        },
+        "descripcion" : null,
+        "precio": 16100,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "El Grano de Mostaza"
+        
+    },
+    {   
+        "id": "bie-007",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_902159-MLA32317401099_092019-O.webp",
+        "nombre": "Mindfulness al Caminar",
+        "autor": "Douglas Baker",
+        "categoria": {
+            "id": "cat-bie",
+            "nombre": "bienestar",
+            "sub_categoria": "bienestar"
+        },
+        "descripcion" : null,
+        "precio": 26550,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "QUARTO"
+        
+    },
+    {   
+        "id": "coc-001",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_931364-MLU74995017920_032024-O.webp",
+        "nombre": "Cocina en familia",
+        "autor": "Jacinta Luna",
+        "categoria": {
+            "id": "cat-coc",
+            "nombre": "cocina",
+            "sub_categoria":"cocina"
+        },
+        "descripcion" : null,
+        "precio": 23320,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Ateneo"
+        
+    },
+    {   
+        "id": "coc-002",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_729414-MLU71701972735_092023-O.webp",
+        "nombre": "Tragos y panes",
+        "autor": "Juliana López May",
+        "categoria": {
+            "id": "cat-coc",
+            "nombre": "cocina",
+            "sub_categoria": "cocina"
+        },
+        "descripcion" : null,
+        "precio": 20599,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Sudamericana"
+        
+    },
+    {   
+        "id": "coc-003",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_953357-MLA46544502269_062021-O.webp",
+        "nombre": "Santa Empanada",
+        "autor": "Pietro Sorba",
+        "categoria": {
+            "id": "cat-coc",
+            "nombre": "cocina",
+            "sub_categoria": "cocina"
+        },
+        "descripcion" : null,
+        "precio": 29300,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Planeta"
+        
+    },
+    {   
+        "id": "coc-004",    
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_967647-MLA29169842158_012019-O.webp",
+        "nombre": "Soul Spices",
+        "autor": "Jalina Chugani",
+        "categoria": {
+            "id": "cat-coc",
+            "nombre": "cocina",
+            "sub_categoria": "cocina"
+        },
+        "descripcion" : null,
+        "precio": 49300,
+        "stock" : 10,
+        "oferta": true,
+        "novedad": false,
+        "venta": 0,
+        "carrito" : {
+            "cantidad": 0,
+            "subtotal": 0
+        },
+        "editorial": "Amat"
+        
+    }
+]
