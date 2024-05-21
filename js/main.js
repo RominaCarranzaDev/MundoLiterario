@@ -84,7 +84,7 @@ let numeritoSidebar = document.querySelector("#numerito-sidebar");
 const botonesCategorias = document.querySelectorAll(".btn-categoria");
 
 //Actualiza el contador en caso de volver del carrito a la tienda
-if (productosEnCarritoLS.length > 0) {
+if (productosEnCarritoLS != null) {
     actualizarCarrito();
     actualizarNumerito();
 } else {
@@ -116,8 +116,6 @@ function actualizarNumerito() {
     }
 }
 
-
-actualizarCarrito();
 actualizarCarritoLS();
 
 

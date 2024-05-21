@@ -44,6 +44,16 @@ document.body.onload = function() {
     let main = document.querySelector('main');
     main.appendChild(div);
 
+    if (window.location.pathname.includes("index.html") || window.location.pathname === "/" ) {
+        console.log(window.location.pathname === "/" )
+        const btnAlCatalogo = document.getElementById("btn-alCatalogo");
+        btnAlCatalogo.href =" ./pages/store.html";
+        const imgCartEmpty = document.querySelector(".img-empty-car img");
+        imgCartEmpty.src = " ./images/assets/cart-empty.png";
+        const imgCartFull = document.querySelector(".img-full-car img");
+        imgCartEmpty.src = " ./images/assets/cart-full.png";
+    }
+    
     let closeBtn = document.querySelector('.cartTab .close');
     
     // abre y cierra el carrito

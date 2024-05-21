@@ -33,10 +33,10 @@
             <div class="nav_menu invisible" id="nav-menu">
                 <ul class="nav_list">
                     <li class="nav_item">
-                        <a href="../index.html#home" class="nav_link sub-line">Home</a>
+                        <a href="../index.html#home" class="nav_link sub-line active">Home</a>
                     </li>
                     <li class="nav_item">
-                        <a href="./store.html" class="nav_link sub-line active">Catálogo</a>
+                        <a href="./store.html" class="nav_link sub-line">Catálogo</a>
                     </li>
                     <li class="nav_item">
                         <a href="../index.html#novedades" class="nav_link sub-line">Novedades</a>
@@ -58,25 +58,37 @@
             </div>          
         </nav>        
     </header>
-    
-    <main>
-        <div class="container-search">
-            <h1>Resultados de la busqueda: <span id="search_span"></span></h1>
-            <section class="section_search" >
-                <h2>Autores</h2>
-                <div id="search_author">
-                    <p>Sin resultado</p>
-                </div>
-            </section>
-            <section class="section_search">
-                <h2>Libros</h2>
-                <div id="search_name">
-                    <p>Sin resultado</p>
-                </div>
-            </section>
-        </div>
-    </main>
+
+   <main>
+    <div class="fondo" id="form_registro">
       
+        <div class="container_registro" id="id_container_registro">   
+            <form class="formulario_sesion" action="" method="">
+                <h1 class="section_title" id="formulario2">Registro</h1>
+                <div class="colp">
+                    <input class="nombre" type="text" placeholder="Nombre">
+                    <p class="falla"></p>
+                </div>
+                <div class="colp">
+                    <input class="apellido" type="text" placeholder="Apellido">
+                    <p class="falla"></p>
+                  </div>
+                <div class="colp">
+                    <input class="correo" type="email" placeholder="Correo">
+                    <p class="falla"></p>
+                  </div>
+                <div class="colp">
+                    <input class="contraseña" type="password" placeholder="Contraseña">
+                    <p class="falla"></p>
+                  </div> 
+                    <button class="ingresar" type="submit">Registrarme</button>
+            </form> 
+        </div>  
+
+    </div>  
+
+   </main>
+    
     <footer class="footer">
         <div class="wave4">
             <div style="height: 150px; overflow: hidden;" >
@@ -97,13 +109,13 @@
                     <h3 class="footer_title">La Empresa</h3>
                     <ul class="footer_links">
                         <li>
-                            <a href="./about_us.html" class="footer_link">Sobre Nosotros</a>
+                            <a href="../pages/about_us.html" class="footer_link">Sobre Nosotros</a>
                         </li>
                         <li>
-                            <a href="./privacy.html" class="footer_link">Políticas de Privacidad</a>
+                            <a href="../pages/privacy.html" class="footer_link">Políticas de Privacidad</a>
                         </li>
                         <li>
-                            <a href="./terms_conditions.html" class="footer_link">Términos y Condiciones</a>
+                            <a href="../pages/terms_conditions.html" class="footer_link">Términos y Condiciones</a>
                         </li>
                     </ul>
                 </div > 
@@ -112,34 +124,34 @@
                     <h3 class="footer_title">Categorías</h3>
                     <ul class="footer_links">
                         <li>
-                            <a href="./store.html?q=cat-cfi" class="footer_link">C. Ficción</a>
+                            <a href="../pages/store.html?q=cat-cfi" class="footer_link">C. Ficción</a>
                         </li>
                         <li>
-                            <a href="./store.html?q=cat-nov" class="footer_link">Novela</a>
-                        </li>
-
-                        <li>
-                            <a href="./store.html?q=cat-inf" class="footer_link">Infantil</a>
+                            <a href="../pages/store.html?q=cat-nov" class="footer_link">Novela</a>
                         </li>
 
                         <li>
-                            <a href="./store.html?q=cat-rom" class="footer_link">Romántica</a>
+                            <a href="../pages/store.html?q=cat-inf" class="footer_link">Infantil</a>
                         </li>
 
                         <li>
-                            <a href="./store.html?q=cat-ter" class="footer_link">Terror</a>
+                            <a href="../pages/store.html?q=cat-rom" class="footer_link">Romántica</a>
                         </li>
 
                         <li>
-                            <a href="./store.html?q=cat-fan" class="footer_link">Fantasía</a>
+                            <a href="../pages/store.html?q=cat-ter" class="footer_link">Terror</a>
                         </li>
 
                         <li>
-                            <a href="./store.html?q=cat-bie" class="footer_link">Bienestar</a>
+                            <a href="../pages/store.html?q=cat-fan" class="footer_link">Fantasía</a>
+                        </li>
+
+                        <li>
+                            <a href="../pages/store.html?q=cat-bie" class="footer_link">Bienestar</a>
                         </li>     
 
                         <li>
-                            <a href="./store.html?q=cat-coc" class="footer_link">Cocina</a>
+                            <a href="../pages/store.html?q=cat-coc" class="footer_link">Cocina</a>
                         </li>         
                        
                     </ul>
@@ -150,12 +162,12 @@
                         Ayuda
                     </h3>
                     <ul class="footer_links">
-                        
-                        <li><a href="./pay_media.html" class="footer_link">Medios de Pago</a>
+                       
+                        <li><a href="../pages/pay_media.html" class="footer_link">Medios de Pago</a>
                         </li>
-                        <li><a href="./cost.html" class="footer_link">Costo de Envío</a>
+                        <li><a href="../pages/cost.html" class="footer_link">Costo de Envío</a>
                         </li>
-                        <li><a href="./frequent_questions.html" class="footer_link">Preguntas Frecuentes</a>
+                        <li><a href="../pages/frequent_questions.html" class="footer_link">Preguntas Frecuentes</a>
                         </li>  
                     </ul>
                 </div > 
@@ -167,10 +179,12 @@
         </a>
          
     </footer>
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="../js/main.js"></script>
-    <script src="../js/search.js"></script>
     <script src="../js/cart.js"></script>
+    <script src="../js/registro.js"></script>
+
 </body>
 </html>
 
