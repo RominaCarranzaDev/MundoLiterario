@@ -14,7 +14,7 @@ document.body.onload = function() {
             <div class="text-empty-car">
                 <h3 class="text-special">Tu carrito está vacío </h3>
                 <p>Descubrí nuestros libros y sumergete en el increible mundo de la literatura.</p>
-                <a href="./store.html" class="btn btn-modal">Descubrir libros</a>
+                <a href="./store.html" class="btn btn-modal" id="btn-alCatalogo">Descubrir libros</a>
             </div>
         </div>
         <div id="carrito-comprado" class="carrito-comprado disabled">
@@ -43,7 +43,7 @@ document.body.onload = function() {
 
     let main = document.querySelector('main');
     main.appendChild(div);
-
+    console.log(window.location.pathname)
     if (window.location.pathname.includes("index.html") || window.location.pathname === "/" ) {
         console.log(window.location.pathname === "/" )
         const btnAlCatalogo = document.getElementById("btn-alCatalogo");
@@ -53,7 +53,7 @@ document.body.onload = function() {
         const imgCartFull = document.querySelector(".img-full-car img");
         imgCartEmpty.src = " ./images/assets/cart-full.png";
     }
-    
+
     let closeBtn = document.querySelector('.cartTab .close');
     
     // abre y cierra el carrito
