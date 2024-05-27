@@ -117,9 +117,3 @@ function actualizarNumerito() {
 }
 
 actualizarCarritoLS();
-
-
-
-
-
-
