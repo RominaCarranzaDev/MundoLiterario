@@ -43,17 +43,17 @@ document.body.onload = function() {
 
     let main = document.querySelector('main');
     main.appendChild(div);
-    console.log(window.location.pathname)
-    if (window.location.pathname.includes("index.html") || window.location.pathname === "/" ) {
+    // si el cart es llamado desde index o la page principal cambia las rutas 
+    if (window.location.pathname.includes("index.html") || window.location.href.endsWith("Mundo-Literario/")) {
         console.log(window.location.pathname === "/" )
         const btnAlCatalogo = document.getElementById("btn-alCatalogo");
         btnAlCatalogo.href =" ./pages/store.html";
         const imgCartEmpty = document.querySelector(".img-empty-car img");
         imgCartEmpty.src = " ./images/assets/cart-empty.png";
         const imgCartFull = document.querySelector(".img-full-car img");
-        imgCartEmpty.src = " ./images/assets/cart-full.png";
+        imgCartFull.src = " ./images/assets/cart-full.png";
     }
-
+    
     let closeBtn = document.querySelector('.cartTab .close');
     
     // abre y cierra el carrito
@@ -111,10 +111,18 @@ const refreshCartHTML = () => {
 
             let newITem = document.createElement('div');
             newITem.classList.add('item');
+            let imageSrc = info.imagen;
+        // si el cart es llamado desde index o la page principal todas las imagenes con ruta absoluta son modificadas solo en DOM, no en el Json
+            if (window.location.pathname.includes("index.html") || window.location.href.endsWith("Mundo-Literario/")) {
+                if (imageSrc.startsWith("../")) {
+                    imageSrc = imageSrc.replace("../","./");
+                };
+            };
+        
             newITem.innerHTML =
                         `
                         <div class="image">
-                            <img src="${info.imagen}" alt="${info.nombre}"/>
+                            <img src="${imageSrc}" alt="${info.nombre}" class="imgs-cart"/>
                         </div>
                         <div class="name">${info.nombre}</div>
                         <div class="quantity">
@@ -136,8 +144,6 @@ const refreshCartHTML = () => {
 
             listHTML.appendChild(newITem);
         });
-
-         
     } else {
         carritoVacio.style.display = "flex";
         listHTML.classList.add("disabled");
