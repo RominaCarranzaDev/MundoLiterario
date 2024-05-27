@@ -9,7 +9,7 @@ Sitio web e-commerce librería Mundo Literario.
 - Pablo Chaviana -
 - Mariana Borda -
 - Mariné Soruco - 
-- Romina Carranza - [romii.carranza@gmail.com](romii.carranza@gmail.com) / [github.com@RomiinaC](https://github.com/RomiinaC) 
+- Romina Carranza - [romii.carranza@gmail.com](mailto:romii.carranza@gmail.com) / [github.com@RomiinaC](https://github.com/RomiinaC) 
 
 
 ## Deployment
