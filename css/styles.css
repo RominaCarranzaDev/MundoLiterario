@@ -1690,42 +1690,56 @@ a.footer_link{
   /*-----------------------------------------------------------------------*/
  /*------------- Formularios de inicio y registro -----------------*/
  /*-----------------------------------------------------------------------*/ 
- .fondo{
+
+.fondo{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 #form_registro #id_container_registro{
-    margin-top: 125px;
+    margin-top: 23px;
+    height: 80vh;
 }
 
 .container_registro{
-    width: 400px;
+    width: 40vw;
     background-color: rgb(245, 240, 240);
-    margin-top: 150px;
+    margin: 80px;
     padding: 30px;
     box-shadow: 7px 13px 37px #360808;
 }
 
 .container_registro form .colp input{
-   width: 350px; 
+   width: 30vw; 
 }
 
-.container_registro h1{ 
-    margin-bottom: 10px;
+.formulario_sesion h1 { 
+    margin-bottom: 4vh;
+}
+
+.formulario_sesion{
+    width: 100%;
 }
 
 .colp input{
+    border-radius: 1vh;
     outline: none;
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid sandybrown;
+    margin-bottom: 27px;
+    border: 2px solid sandybrown;
     font-size: 15px;
 }
 
-.container_registro .ingresar{
+.container_registro .resgistrarme{
     margin: 0px 14px;
-    width: 93%;
+}
+
+#btn_login{
+    margin: 15px;
+}
+.resgistrarme p{
+    display: inline-flex;
 }
 
 .resgistrarme a{
@@ -1733,31 +1747,32 @@ a.footer_link{
 }
 
 .falla {
-    margin-top: 10px;
-    margin-left: 20px;
+    margin: 12px;
+    margin-left: 3vw;
     font-size: 12px;
     color: red;
     font-weight: 600;
 }
 
 .formulario_error input{
+    border-radius: 1vh;
     outline: none;
-    width: 87%;
+    width: 30vw;
     padding: 10px;
-    border: 1px solid red;
+    border: 2px solid red;
     background-color: rgb(247, 236, 236);
     font-size: 15px;
 }
+
 .formulario_ok input{
+    border-radius: 1vh;
     outline: none;
-    width: 87%;
+    width: 30vw;
     padding: 10px;
-    border: 1px solid sandybrown;
+    border: 2px solid sandybrown;
     font-size: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 39px;
 }
-
-
 
 
 
