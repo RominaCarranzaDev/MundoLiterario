@@ -33,7 +33,7 @@
             <div class="nav_menu invisible" id="nav-menu">
                 <ul class="nav_list">
                     <li class="nav_item">
-                        <a href="../index.html#home" class="nav_link sub-line active">Home</a>
+                        <a href="../index.html#home" class="nav_link sub-line">Home</a>
                     </li>
                     <li class="nav_item">
                         <a href="./store.html" class="nav_link sub-line">Catálogo</a>
@@ -47,8 +47,8 @@
                     <li class="nav_item">
                         <a href="../index.html#contacto" class="nav_link sub-line">Contacto</a>
                     </li> 
-                    <li class="nav_item">
-                        <a href="./administration.html" class="nav_link sub-line invisible">Administración</a>
+                    <li id="page-admin" class="nav_item">
+                        <a href="./administration.html" class="nav_link sub-line active">Administración</a>
                     </li>
                 </ul>
             </div>
@@ -60,83 +60,80 @@
             </div>          
         </nav>        
     </header>
-
-    <main>
-
-        <div class="container_questions">    
-
-            <h1>Preguntas Frecuentes</h1>
-            <div class="ask">
-                <div class="header_ask">
-                    <h3>¿Cómo buscar un producto?</h3>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="answer activo">
-                    <p>Se puede utilizar el buscador para encontrar un libro por nombre o autor; también es posible ingresar en el apartado Catálogo para navegar por las diferentes temáticas.</p>
-                </div>
-
-            </div>
-
-            <div class="ask">
-                <div class="header_ask">
-                    <h3>¿Puedo cancelar un producto o devolverlo luego de realizada la compra?</h3>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="answer">
-                    <p>A partir de la recepción de tu orden, tenés 10 días corridos para poder realizar cambios o devoluciones.</p>
-
-                    <p>Podés solictarla a través del formulario de contacto, haciendo click en "Cancelaciones/Devoluciones" </p>
-                    
-                    <p>Es necesario que informes: número de pedido (que recibiste por correo electrónico), motivo/s del cambioo devolución, si fuera por productos puntuales indicar nomv¡bre del libro y cantidad a devolver</p>
-                    
-                    <p>Recibirás un correo electrónico con toda la información para concretar el cambio o devolución</p>
-                    
-                    <p><span>Importante:</span> </p>
-                   
-                    <p>Se aceptarán los cambios y devoluciones si los productos no fueron usados ni tienen signos de deterioro (roturas, escritos o manchados) y estuvieran en el mismo estado en que se recibieron conservando los envoltorios o cajas originales, plásticos, con sus etiquetas incluyendo todo tipo de accesorios si los hubiere. </p>
-               
-                </div>   
-
-            </div>       
-            
-            <div class="ask">
-                <div class="header_ask">
-                    <h3>¿Puedo modificar la cantidad o agregar un producto luego de realizada la compra?</h3>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="answer">
-                    <p>Recomendamos que se realice un nuevo pedido y, luego, envía un mail a mundoLiterario@gmail.com informando el número de orden de pedido para ultimar los detalles sobre el envío </p>
-                </div>
-
-            </div> 
-
-            <div class="ask">
-                <div class="header_ask">
-                    <h3>¿Tengo que pagar algún impuesto para compras fuera de la Argentina?</h3>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="answer">
-                    <p>Para compras fuera de Argentina, los cargos en el país de desino por retiro de Aduana o impuestos son responsabilidad del cliente y pueden variar de país en país</p>
-                    <p>Recomendamos contactarse con la oficina de Aduanas de su país para obtener información de posibles cargos por los  conceptos mencionados.</p>
-                </div>
-
-            </div>
-
-            <div class="ask">
-                <div class="header_ask">
-                    <h3>¿Cuándo recibiré mi compra?</h3>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="answer">
-                    <p>Luego de realizar tu pedido recibirás un correo con la confirmación del pago y un link para el seguimiento del envío.</p>
-                    <p>Los pedidos sales del depósito normalmente 24h hábiles después de la confirmación de la compra</p>
-                    <p>EL tiempo de envío varía en función de la distancia desde nuestro centro de distribución. Puede consultar la tabla de tiempos de envío en el apartado "Costo de envío"</p>
-                </div>
-
-            </div>
-           
-    </main>
     
+    <main>
+        <aside>
+            <form id="formBooks" method="post">
+                <div class="camposForm">
+                    <label for="codigo">Código:</label>
+                    <input id="codigo" name="codigo" type="text" placeholder="cod-000" required>
+                </div>
+                <div class="camposForm">
+                    <label for="imagen">Foto:</label>
+                    <input id="imagen" name="imagen" type="url" placeholder="URL de la imagen" required>
+                </div>
+                <div class="camposForm">
+                    <label for="nombre">Título:</label>
+                    <input id="nombre" name="nombre" type="text" placeholder="Título" required>
+                </div>
+                <div class="camposForm">
+                    <label for="autor">Autor:</label>
+                    <input id="autor" name="autor" type="text" placeholder="Nombre y Apellido del autor" required>
+                </div>
+                <div class="camposForm">
+                    <label for="categoria">Categoría:</label>
+                    <select id="categoria" name="categoria" required>
+                        <option value="" disabled selected>Categoría</option>
+                        <option value="1">Infantil</option>
+                        <option value="2">Cuento</option>
+                        <option value="3">Novela</option>
+                        <option value="4">Novela Psicológica</option>
+                        <option value="5">Novela Distópica</option>
+                        <option value="6">Novela Espiritual</option>
+                        <option value="7">Novela Contemporánea</option>
+                        <option value="8">Novela Histórica</option>
+                        <option value="9">Novela Romántica</option>
+                        <option value="10">Novela Fantástica</option>
+                        <option value="11">Realismo Mágico</option>
+                        <option value="12">Fantasía</option>
+                        <option value="13">Fantasía Épica</option>
+                        <option value="14">Thriller</option>
+                        <option value="15">Terror</option>
+                        <option value="16">Ciencia Ficción</option>
+                        <option value="17">Policial</option>
+                        <option value="18">Policial y espionaje</option>
+                        <option value="19">Bienestar</option>
+                        <option value="20">Cocina</option>
+                    </select>
+                </div>
+                <div class="camposForm">
+                    <label for="precio">Precio:</label>
+                    <input id="precio" name="precio" type="number" placeholder="$" required>
+                </div>
+                <div class="camposForm">
+                    <label for="stock">Stock disponible:</label>
+                    <input id="stock" name="stock" type="number" placeholder="" required>
+                </div>
+                <div class="camposForm">
+                    <label for="editorial">Editorial:</label>
+                    <input id="editorial" name="editorial" type="text" placeholder="Editorial" required>
+                </div>
+                <div class="camposForm">
+                    <label for="descripcion">Descripción:</label>
+                    <textarea name="descripcion" id="descripcion" placeholder="Breve descripción" maxlength="250"></textarea>
+                </div>
+                <input id="btn-agregar-libro" type="submit" value="AGREGAR LIBRO">
+                <input type="reset" value="REESTABLECER">
+            </form>
+        </aside>
+        <section id="container-btn">
+            <button id="close-session" type="button">CERRAR SESIÓN</button>
+        </section>
+        <section id="container-books">
+
+        </section>
+    </main>
+      
     <footer class="footer">
         <div class="wave4">
             <div style="height: 150px; overflow: hidden;" >
@@ -210,7 +207,7 @@
                         Ayuda
                     </h3>
                     <ul class="footer_links">
-                       
+                        
                         <li><a href="./pay_media.html" class="footer_link">Medios de Pago</a>
                         </li>
                         <li><a href="./cost.html" class="footer_link">Costo de Envío</a>
@@ -227,11 +224,9 @@
         </a>
          
     </footer>
-
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="../js/main.js"></script>
-    <script src="../js/questions.js"></script>
-
+    <script src="../js/administration.js"></script>
 </body>
 </html>
 

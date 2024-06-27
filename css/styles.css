@@ -48,9 +48,7 @@ img{
     height: auto;
 }
 /* clases para todo el sitio */
-.invisible {
-    display: none;
-}
+
 .visible {
     display: inline-block;
 }
@@ -164,7 +162,7 @@ img{
 .nav_list {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: .2rem;
 }
 .nav_link {
     font-family: var(--font-title);
@@ -1774,7 +1772,9 @@ a.footer_link{
     margin-bottom: 39px;
 }
 
-
+.invisible {
+    display: none;
+}
 
 /* -------------------------------- */
 /* ......... Media Query ......... */

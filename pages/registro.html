@@ -47,7 +47,9 @@
                     <li class="nav_item">
                         <a href="../index.html#contacto" class="nav_link sub-line">Contacto</a>
                     </li> 
-                  
+                    <li class="nav_item">
+                        <a href="./administration.html" class="nav_link sub-line invisible">Administración</a>
+                    </li>
                 </ul>
             </div>
             <div class="nav_search">
@@ -63,22 +65,22 @@
         <div class="fondo" id="form_registro">
           
             <div class="container_registro" id="id_container_registro">   
-                <form class="formulario_sesion" action="" method="">
+                <form class="formulario_sesion" action="" method="post">
                     <h1 class="section_title" id="formulario2">Registro</h1>
                     <div class="colp">
-                        <input class="nombre" type="text" placeholder="Nombre">
+                        <input id="nombre" name="nombre" class="nombre" type="text" placeholder="Nombre">
                         <p class="falla"></p>
                     </div>
                     <div class="colp">
-                        <input class="apellido" type="text" placeholder="Apellido">
+                        <input id="apellido" name="apellido" class="apellido" type="text" placeholder="Apellido">
                         <p class="falla"></p>
                       </div>
                     <div class="colp">
-                        <input class="correo" type="email" placeholder="Correo">
+                        <input id="correo" name="correo" class="correo" type="email" placeholder="Correo">
                         <p class="falla"></p>
                       </div>
                     <div class="colp">
-                        <input class="contraseña" type="password" placeholder="Contraseña">
+                        <input id="password" name="password" class="contraseña" type="password" placeholder="Contraseña">
                         <p class="falla"></p>
                       </div> 
                         <button class="btn" type="submit">Registrarme</button>
