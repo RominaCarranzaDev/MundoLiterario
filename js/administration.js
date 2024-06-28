@@ -57,8 +57,13 @@ function cargarLibros(libros) {
         `;
 
         containerLibros.append(div);
+
+        // Añadir eventos para editar y eliminar
+        div.querySelector('.editLibro').addEventListener('click', () => editLibro(libro));
+        div.querySelector('.deleteLibro').addEventListener('click', () => deleteLibro(libro.id));
     })
 }
+
 
 // Post para crear un nuevo libro
 formBooks.addEventListener('submit', async (event) => {
@@ -92,6 +97,58 @@ formBooks.addEventListener('submit', async (event) => {
         console.error('Error al conectarse al servidor:', error);
     }
 });
+
+// PUT para actualizar un libro
+async function editLibro(libro) {
+    const codigo = prompt("Nuevo código:", libro.codigo);
+    const imagen = prompt("Nueva imagen URL:", libro.imagen);
+    const nombre = prompt("Nuevo nombre:", libro.nombre);
+    const autor = prompt("Nuevo autor:", libro.autor);
+    const categoria = prompt("Nueva categoría:", libro.categoria);
+    const precio = prompt("Nuevo precio:", libro.precio);
+    const stock = prompt("Nuevo stock:", libro.stock);
+    const editorial = prompt("Nueva editorial:", libro.editorial);
+    const descripcion = prompt("Nueva descripción:", libro.descripcion);
+
+    try {
+        const response = await fetch(`${URL_API}/books/${libro.id}/`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ codigo, imagen, nombre, autor, categoria, precio, stock, editorial, descripcion })
+        });
+
+        if (response.ok) {
+            fetchLibros();
+        } else {
+            console.error('Error al actualizar el libro:');
+        }
+    } catch (error) {
+        console.error('Error al conectarse al servidor:', error);
+    }
+}
+
+// DELETE para eliminar un libro
+async function deleteLibro(id) {
+    if (confirm("¿Está seguro de que desea eliminar este libro?")) {
+        try {
+            const response = await fetch(`${URL_API}/books/${id}/`, {
+                method: 'DELETE'
+            });
+
+            if (response.ok) {
+                fetchLibros();
+            } else {
+                console.error('Error al eliminar el libro:');
+            }
+        } catch (error) {
+            console.error('Error al conectarse al servidor:', error);
+        }
+    }
+}
+
+
 
 btnCloseSession.addEventListener('click', ()=>{
     administracion.classList.add("invisible")

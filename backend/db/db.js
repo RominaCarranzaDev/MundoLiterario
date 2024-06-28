@@ -10,6 +10,7 @@ const connection = mysql.createConnection({
     port: 3306,
 });
 
+
 //conexion
 connection.connect((err)=>{
     //en caso de error
