@@ -37,8 +37,8 @@ function cargarLibros(libros) {
 
         const div = document.createElement("div");
         div.innerHTML = `
-            <div class="container-img-libro">
-                <img class="img-libro" src="${libro.imagen}" alt="${libro.nombre}"></a>
+            <div class="container-imagen-libro">
+                <img class="imagen-libro" src="${libro.imagen}" alt="${libro.nombre}"></a>
             </div>
             
             <div class="detalles-libro">
@@ -50,8 +50,8 @@ function cargarLibros(libros) {
                 <p>Stock disponible: ${libro.stock}</p>
                 <p>Editorial: ${libro.editorial}</p>
                 <p>Descripción: ${libro.descripcion}</p>
-                <button class="editLibro" id="btn-edit-book" data-id="${libro.id}"><i class="fa-solid fa-file-pen"></i></button>
-                <button class="deleteLibro" id="btn-delete-book" data-id="${libro.id}"><i class="fa-solid fa-eraser"></i></button>
+                <button class="editLibro" id="btn-edit-book" data-id="${libro.id}" title= "Editar"><i class="fa-solid fa-file-pen"></i></button>
+                <button class="deleteLibro" id="btn-delete-book" data-id="${libro.id}" title="Eliminar"><i class="fa-solid fa-eraser"></i></button>
 
             </div>
         `;

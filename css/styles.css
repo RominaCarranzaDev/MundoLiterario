@@ -1512,14 +1512,14 @@ aside {
     box-sizing: border-box;
 }
 
-.container-img-libro {
+.container-imagen-libro {
     flex: 0 0 auto; 
     width: 5rem;
 }
 
 .detalles-libro {
     display: flex;
-  flex-direction: row;
+   flex-direction: row;
     width:auto;
     height: auto;
     margin-left: 1rem;  

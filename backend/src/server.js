@@ -6,10 +6,11 @@ const booksRoutes = require('../routes/booksRouter');
 const usersRoutes = require('../routes/usersRouter');
 
 const PORT = 3000; 
-// Permitir solicitudes desde http://127.0.0.1:5502 localhost
+//Permitir solicitudes desde http://127.0.0.1:5502 localhost
 app.use(cors({
     origin: 'http://127.0.0.1:5502'
 }));
+
 
 
 
